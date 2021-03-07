@@ -13,4 +13,5 @@
   <li>As Doctor_3 or Patient_6, I want to be able to cancel any of my bookings.</li>
   <li>As Admin, I want to be able to add new doctors or remove them.</li>
   <li>As Admin, I want to be able to delete doctor or patient accounts from the site.</li>
+  <li>As Admin, I want to see all the bookings and manage them.</li>
 </ol>
