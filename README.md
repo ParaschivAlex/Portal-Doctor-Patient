@@ -14,4 +14,5 @@
   <li>As Admin, I want to be able to add new doctors or remove them.</li>
   <li>As Admin, I want to be able to delete doctor or patient accounts from the site.</li>
   <li>As Admin, I want to see all the bookings and manage them.</li>
+  <li>As Admin, I want the unregistered users to be able to only see the prices for the medical services, otherwise they get redirected to the login page.</li>
 </ol>
