@@ -20,4 +20,5 @@
   <li>As Patient_6, I want to able to save some data about me (kg, age, allergies).</li>
   <li>As Admin, I want to have a contact/support page where people can reach the administration.</li>
   <li>As Patient_7, I want to see a list of all doctors.</li>
+  <li>As Admin, I want people to be able to login with Facebook.</li>
 </ol>
