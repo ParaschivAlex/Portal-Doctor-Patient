@@ -19,5 +19,5 @@
   <li>As an user, I want to see some usefull articles about medicine.</li>
   <li>As Patient_6, I want to able to save some data about me (kg, age, allergies).</li>
   <li>As Admin, I want to have a contact/support page where people can reach the administration.</li>
-  <li>As Patient_7, I want to see a full list of all doctors.</li>
+  <li>As Patient_7, I want to see a list of all doctors.</li>
 </ol>
