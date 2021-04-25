@@ -1,6 +1,6 @@
 # Portal-Doctor-Patient
 
-**1.USER STORIES:**
+**1. USER STORIES:**
 <ol>
   <li>As Patient_1, I want to have my own account.</li>
   <li>As Admin, I want people to be able to login with Facebook.</li>
@@ -21,3 +21,6 @@
   <li>As Admin, I want to have a contact/support page where people can reach the administration.</li>
   <li>As Patient_7, I want to see a list of all doctors.</li>
 </ol>
+
+**2. PROJECT DIAGRAM:**
+![Uml Diagram](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/UML%20Doc-Pat.png)
