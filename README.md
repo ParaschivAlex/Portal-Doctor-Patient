@@ -10,13 +10,12 @@
   <li>As Patient_4, I want to see the price for each booking I make.</li>
   <li>As Patient_5, I need to be able to book a consultation on a date that I choose.</li>
   <li>As Admin, I would like to send automatic confirmation emails to patients when they book an available slot.</li>
-  <li>As Doctor_2, I need to receive feedback from my past patients.</li>
+  <li>As Doctor_2, I need to receive feedback from my patients.</li>
   <li>As Doctor_3 or Patient_6, I want to be able to cancel any of my bookings.</li>
   <li>As Admin, I want to be able to add new doctors or remove them.</li>
   <li>As Admin, I want to be able to delete doctor or patient accounts from the site.</li>
   <li>As Admin, I want to see all the bookings and manage them.</li>
   <li>As Admin, I want the unregistered users to be able to only see the prices for the medical services, otherwise they get redirected to the login page.</li>
-  <li>As a normal registered user, I want to be able to send a request to the Admin to become a doctor.</li>
   <li>As an user, I want to see some usefull articles about medicine.</li>
   <li>As Patient_6, I want to be able to save some data about me (kg, age, allergies).</li>
   <li>As Admin, I want to have a contact/support page where people can reach the administration.</li>
