@@ -23,4 +23,4 @@
 </ol>
 
 **2. PROJECT DIAGRAM:**
-![Uml Diagram](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/UML%20Doc-Pat.png)
+![Uml Diagram](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/DocPatDiagram.PNG)
