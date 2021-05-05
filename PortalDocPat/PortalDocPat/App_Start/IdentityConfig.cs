@@ -87,10 +87,10 @@ namespace PortalDocPat
             return manager;
         }
 
-		internal Task<IdentityResult> AddLoginAsync(string id, string v)
+		/*internal Task<IdentityResult> AddLoginAsync(string id, string v)
 		{
 			throw new NotImplementedException();
-		}
+		}*/
 	}
 
     // Configure the application sign-in manager which is used in this application.

@@ -1,17 +1,233 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+	ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<style>
+	.myrows {
+		border: 3px solid green;
+		padding: 5px;
+	}
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+	.mycols {
+		border: 3px solid red;
+	}
+
+	.mycontainer {
+		background-color: aqua;
+	}
+
+	#topHeader {
+		border-bottom: 1px solid #ebebeb;
+	}
+
+		#topHeader a {
+			color: #2c3e50;
+			font-weight: 600;
+			font-size: 0.89rem;
+		}
+
+	.container-fluid {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	nav ul li a {
+		font-size: 1.1rem;
+		font-weight: 600;
+	}
+
+	.full-footer {
+		background-color: #243c4f;
+	}
+
+	.top-footer p {
+		color: white;
+	}
+
+	.top-footer a {
+		color: white;
+		font-weight: 600;
+	}
+
+	.top-footer h3 {
+		color: white;
+	}
+
+	.bottom-footer {
+		background-color: #031b2e;
+	}
+
+		.bottom-footer p {
+			color: white;
+		}
+
+	.top-hero-section {
+		background-color: #3498db;
+		color: white;
+	}
+
+		.top-hero-section a {
+			color: white;
+			font-weight: 600;
+		}
+
+	.qualities-img {
+		width: 200px;
+	}
+
+	.requirements-section {
+		background-color: #004d80;
+		color: white;
+	}
+
+	.home-newsletter {
+		background-color: #004d80;
+		color: white;
+	}
+
+		.home-newsletter .form-control {
+			height: 50px;
+			border-color: transparent;
+			border-radius: 20px 0 0 20px;
+		}
+
+		.home-newsletter .btn {
+			min-height: 50px;
+			border-radius: 0 20px 20px 0;
+			background: #be0280;
+			color: #fff;
+		}
+
+
+	.clients-section {
+		background-color: #f0f0f0;
+	}
+
+	.breadcrumbs-section {
+		background-color: #e9ecef;
+	}
+
+	.address p {
+		font-weight: 600;
+	}
+</style>
+<!--
+<div id="contact" class="container-fluid bg-grey">
+	<h2 class="text-center">CONTACT</h2>
+	<div class="row">
+		<div class="col-sm-5">
+			<p>Nu ezita sa ne contactezi! Vom raspunde cat de repede putem.</p>
+			<p><span class="glyphicon glyphicon-map-marker"></span> Bucuresti, Romania</p>
+			<p><span class="glyphicon glyphicon-phone"></span> +40737102977</p>
+			<p><span class="glyphicon glyphicon-envelope"></span> alexandru.paraschiv13@s.unibuc.ro</p>
+		</div>
+		<div class="col-sm-7 slideanim">
+			<div class="row">
+				<div class="col-sm-6 form-group">
+					<input class="form-control" id="name" name="name" placeholder="Nume" type="text" required>
+				</div>
+				<div class="col-sm-6 form-group">
+					<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+				</div>
+			</div>
+			<textarea class="form-control" id="comments" name="comments" placeholder="Ce vrei sa ne spui..." rows="5"></textarea><br>
+			<div class="row">
+				<div class="col-sm-12 form-group">
+					<button class="btn btn-default pull-right" type="submit">Send</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+-->
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<p>
+					Un proiect realizat pentru a simula o platforma Doctor-Pacient, similara cu cea de la Regina Maria.
+				</p>
+				<hr />
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="form-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<form action="">
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<input type="text" class="form-control" placeholder="Nume si Prenume">
+
+						</div>
+						<div class="form-group col-md-6">
+							<input type="email" class="form-control" placeholder="Adresa de email">
+						</div>
+					</div>
+
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<input type="number" class="form-control" placeholder="Numarul de telefon">
+
+						</div>
+						<div class="form-group col-md-6">
+							<select class="form-control" name="" id="">
+								<option selected>Country</option>
+								<option>Romania</option>
+								<option>Bulgaria</option>
+								<option>Ungaria</option>
+								<option>Moldova</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-12">
+							<input type="text" class="form-control" placeholder="Subiect">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-12">
+							<textarea class="form-control" rows="3"></textarea>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-12 text-center">
+							<button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i>Trimite</button>
+						</div>
+					</div>
+
+				</form>
+
+			</div>
+			<div class="col-md-6 address">
+				<h5>Telefon/Whatsapp</h5>
+				<p>
+					<i class="fas fa-phone"></i> +40 737 015 515<br />
+				</p>
+				<h5>Email</h5>
+				<p>
+					<a href="mailto:alexandru.paraschiv13@s.unibuc.ro"><i class="fas fa-envelope"></i> alexandru.paraschiv13@s.unibuc.ro</a><br>
+
+				</p>
+				<h5>Orar</h5>
+				<p>
+					Luni - Vineri: 08:00 - 21:00 <br />
+					Weekend: 09:00 - 16:00
+				</p>
+				<h5>Adresa</h5>
+				<p>
+					Strada Axinte Uricariul, București 011736
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div style="width: 100%">
+	<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Strada%20Axinte%20Uricariul,%20Bucure%C8%99ti%20011736+(Regina%20Maria)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+		</iframe>
+</div>
