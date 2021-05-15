@@ -24,3 +24,5 @@
 
 **2. PROJECT DIAGRAM:**
 
+![Diagrama](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/Paraschiv/DocPatient%20Diagram.png)
+
