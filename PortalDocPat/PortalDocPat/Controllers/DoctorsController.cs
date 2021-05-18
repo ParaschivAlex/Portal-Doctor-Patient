@@ -25,8 +25,6 @@ namespace PortalDocPat.Controllers
 
             doctor.Spec = GetAllSpecializations();
 
-            doctor.DoctorId = User.Identity.GetUserId();
-
             return View(doctor);
         }
 
@@ -60,7 +58,7 @@ namespace PortalDocPat.Controllers
 
             Doctor doctor = db.Doctors.Find(id);
             doctor.Spec = GetAllSpecializations();
-            if (doctor.DoctorId == User.Identity.GetUserId() || User.IsInRole("Admin"))
+            if (doctor.DoctorId.ToString() == User.Identity.GetUserId() || User.IsInRole("Admin"))
             {
                 return View(doctor);
             }
@@ -80,7 +78,7 @@ namespace PortalDocPat.Controllers
                 {
                     Doctor doctor = db.Doctors.Find(id);
 
-                    if (doctor.DoctorId == User.Identity.GetUserId() || User.IsInRole("Admin"))
+                    if (doctor.DoctorId.ToString() == User.Identity.GetUserId() || User.IsInRole("Admin"))
                     {
                         if (TryUpdateModel(doctor))
                         {
@@ -111,7 +109,7 @@ namespace PortalDocPat.Controllers
         public ActionResult Delete(int id)
         {
             Doctor doctor = db.Doctors.Find(id);
-            if (doctor.DoctorId == User.Identity.GetUserId() || User.IsInRole("Admin"))
+            if (doctor.DoctorId.ToString() == User.Identity.GetUserId() || User.IsInRole("Admin"))
             {
                 db.Doctors.Remove(doctor);
                 db.SaveChanges();
@@ -146,7 +144,7 @@ namespace PortalDocPat.Controllers
         {
             float rating_val = 0;
             int nr_reviews = 0;
-            var reviews = db.Reviews.Where(a => a.DoctorId == doc.DoctorId);
+            var reviews = db.Reviews.Where(a => a.DoctorId == doc.DoctorId.ToString());
             foreach (var rev in reviews)
             {
                 rating_val = rating_val + rev.Grade;
