@@ -11,6 +11,8 @@ namespace PortalDocPat.Controllers
         // GET: Patients
         public ActionResult Index()
         {
+
+
             return View();
         }
     }

@@ -152,6 +152,8 @@ namespace PortalDocPat.Controllers
             }
             rating_val = rating_val / nr_reviews;
 
+
+      
             doc.Rating = rating_val;
 
         }
