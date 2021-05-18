@@ -105,3 +105,9 @@ D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocP
 D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.pdb
 D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.Migrations.Initial.resources
 D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csproj.GenerateResource.cache
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csprojAssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.Migrations.Initial.resources
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csproj.GenerateResource.cache
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.pdb

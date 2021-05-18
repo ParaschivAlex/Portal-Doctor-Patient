@@ -144,7 +144,7 @@ namespace PortalDocPat.Controllers
         {
             float rating_val = 0;
             int nr_reviews = 0;
-            var reviews = db.Reviews.Where(a => a.DoctorId == doc.DoctorId.ToString());
+            var reviews = db.Reviews.Where(a => a.DoctorId == doc.DoctorId);
             foreach (var rev in reviews)
             {
                 rating_val = rating_val + rev.Grade;
