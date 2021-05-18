@@ -24,6 +24,3 @@
 
 **2. PROJECT DIAGRAM:**
 
-![Uml Diagram](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/DocPatient%20Diagram.png)
-
-
