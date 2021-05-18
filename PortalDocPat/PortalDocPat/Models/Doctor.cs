@@ -10,7 +10,7 @@ namespace PortalDocPat.Models
 	public class Doctor
 	{
 		[Key]
-		public string DoctorId { get; set; }
+		public int DoctorId { get; set; }
 
 		[Required(ErrorMessage = "Numele este obligatoriu")]
 		public string Name { get; set; }
