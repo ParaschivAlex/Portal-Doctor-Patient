@@ -5,7 +5,7 @@
   <li>As Patient_1, I want to have my own account.</li>
   <li>As Admin, I want people to be able to login with Facebook.</li>
   <li>As Patient_2, I want to be able to see my consultation history.</li>
-  <li>As Doctor_1, I don't want my consultations to overlap.</li>
+  <li>As Doctor_1, I don't want my consultations to overlap..</li>
   <li>As Patient_3, I want to search doctors by name and specialization.</li>
   <li>As Patient_4, I want to see the price for each booking I make.</li>
   <li>As Patient_5, I need to be able to book a consultation on a date that I choose.</li>
