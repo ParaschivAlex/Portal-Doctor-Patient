@@ -12,13 +12,13 @@ namespace PortalDocPat.Models
 		[Key]
 		public int DoctorId { get; set; }
 
-		[Required]
+		[Required(ErrorMessage = "Numele este obligatoriu")]
 		public string Name { get; set; }
-		
+
 		public bool IsAvailable { get; set; }
 
 		public string Phone { get; set; }
-		[Required]
+		[Required(ErrorMessage = "Rata de pret este obligatorie")]
 		public float PriceRate { get; set; }
 		public float Rating { get; set; }
 
@@ -32,7 +32,7 @@ namespace PortalDocPat.Models
 
 		public virtual ICollection<Consultation> Consultations { get; set; }
 
-		public int UserId { get; set; }
+		public string UserId { get; set; }
 		public virtual ApplicationUser User { get; set; }
 	}
 }

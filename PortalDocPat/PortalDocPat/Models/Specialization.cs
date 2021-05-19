@@ -11,9 +11,9 @@ namespace PortalDocPat.Models
 		[Key]
 		public int SpecializationId { get; set; }
 
-		[Required]
+		[Required(ErrorMessage = "Numele specializarii este obligatoriu")]
 		public string SpecializationName { get; set; }
-		[Required]
+		[Required(ErrorMessage = "Pretul mediu este obligatoriu!")]
 		public float Price { get; set; }
 
 		public virtual ICollection<Doctor> Doctors { get; set; }

@@ -11,11 +11,11 @@ namespace PortalDocPat.Models
 		[Key]
 		public int ArticleId { get; set; }
 
-		[Required]
+		[Required(ErrorMessage = "Titlul este obligatoriu")]
 		public string Title { get; set; }
-		[Required]
+		[Required(ErrorMessage = "Continutul articolului este obligatoriu")]
 		public string Content { get; set; }
-		[Required]
+		[Required(ErrorMessage = "Data este obligatorie")]
 		public DateTime Date { get; set; }
 
 		public int DoctorId { get; set; }
