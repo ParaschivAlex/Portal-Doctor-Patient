@@ -14,7 +14,7 @@ namespace PortalDocPat.Models
 
 		[Required(ErrorMessage = "Numele este obligatoriu")]
 		public string Name { get; set; }
-		
+
 		public bool IsAvailable { get; set; }
 
 		public string Phone { get; set; }
@@ -32,7 +32,7 @@ namespace PortalDocPat.Models
 
 		public virtual ICollection<Consultation> Consultations { get; set; }
 
-		public int UserId { get; set; }
+		public string UserId { get; set; }
 		public virtual ApplicationUser User { get; set; }
 	}
 }
