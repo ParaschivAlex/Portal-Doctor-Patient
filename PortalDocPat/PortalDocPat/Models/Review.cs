@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -13,7 +12,7 @@ namespace PortalDocPat.Models
 		public int ReviewId { get; set; }
 
 		[Required]
-		[Range(1, 10, ErrorMessage = "Review-ul trebuie sa aiba o nota")]
+		[Range(1,10, ErrorMessage = "Review-ul trebuie sa aiba o nota")]
 		public int Grade { get; set; } //de la 1 la 10
 
 		[MaxLength(150)]
@@ -27,6 +26,6 @@ namespace PortalDocPat.Models
 		public int PatientId { get; set; }
 		public virtual Patient Patient { get; set; }
 
-		public string UserId { get; internal set; }
+
 	}
 }
