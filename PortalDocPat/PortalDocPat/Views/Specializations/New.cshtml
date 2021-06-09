@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Adaugare Specializare";
+}
+
+
+<h2>Adaugare Specializare</h2>
+
+<form method="post" action="/Specializations/New">
+
+    @Html.Label("SpecializationName", "Denumire specializare")
+    <br />
+    @Html.TextBox("SpecializationName", null, new { @class = "form-control" })
+    <br />
+
+    @Html.Label("Price", "Adaugare pret standard")
+    <br />
+    @Html.TextBox("Price", null, new { @class = "form-control" })
+    @Html.ValidationMessage("Price", "", new { @class = "text-danger" })
+    <br />
+
+    <button class="btn btn-success" type="submit">Adauga specializare</button>
+</form>

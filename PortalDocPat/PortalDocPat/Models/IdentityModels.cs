@@ -26,7 +26,7 @@ namespace PortalDocPat.Models
 			Database.SetInitializer(new MigrateDatabaseToLatestVersion<ApplicationDbContext, PortalDocPat.Migrations.Configuration>("DefaultConnection"));
 		}
 		public DbSet<Doctor> Doctors { get; set; }
-		public DbSet<Specialization> Specialziations { get; set; }
+		public DbSet<Specialization> Specializations { get; set; }
 		public DbSet<Review> Reviews { get; set; }
 		public DbSet<Patient> Patients { get; set; }
 		public DbSet<Consultation> Consultations { get; set; }
