@@ -77,7 +77,7 @@ namespace PortalDocPat.Controllers
 			return View();
 		}
 
-		public ActionResult SortareProduse(int id)
+		public ActionResult SortareDoctori(int id)
 		{
 			switch (id)
 			{

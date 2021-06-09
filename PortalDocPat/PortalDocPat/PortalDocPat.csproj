@@ -251,11 +251,14 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Doctors\Index.cshtml" />
+    <Content Include="Views\Doctors\Edit.cshtml" />
+    <Content Include="Views\Doctors\New.cshtml" />
+    <Content Include="Views\Doctors\Show.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Consultations\" />
-    <Folder Include="Views\Doctors\" />
     <Folder Include="Views\Patients\" />
     <Folder Include="Views\Reviews\" />
     <Folder Include="Views\Specializations\" />
