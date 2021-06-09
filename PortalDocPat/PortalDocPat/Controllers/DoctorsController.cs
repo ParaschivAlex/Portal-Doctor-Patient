@@ -280,7 +280,7 @@ namespace PortalDocPat.Controllers
 		{
 			var selectList = new List<SelectListItem>();
 
-			var specs = from sp in db.Specialziations
+			var specs = from sp in db.Specializations
 							 select sp;
 
 			foreach (var spec in specs)

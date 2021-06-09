@@ -1,0 +1,21 @@
+﻿@model PortalDocPat.Models.Specialization
+
+<h2>Editare specializare</h2>
+
+<form method="post" action="/Specializations/Edit/@Model.SpecializationId">
+
+    @Html.HttpMethodOverride(HttpVerbs.Put)
+
+    @Html.HiddenFor(m => m.SpecializationId)
+
+    @Html.Label("SpecializationName", "Denumire specializare")
+    <br />
+    @Html.Editor("SpecializationName")
+    <br />
+    @Html.Label("Price", "Pret standard")<br />
+    @Html.EditorFor(m => m.Price)
+    @Html.ValidationMessageFor(m => m.Price, "", new { @class = "text-danger" })
+    <br /><br />
+
+    <button class="btn btn-success" type="submit">Modifica specializarea</button>
+</form>

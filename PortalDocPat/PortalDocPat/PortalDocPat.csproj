@@ -255,13 +255,16 @@
     <Content Include="Views\Doctors\Edit.cshtml" />
     <Content Include="Views\Doctors\New.cshtml" />
     <Content Include="Views\Doctors\Show.cshtml" />
+    <Content Include="Views\Specializations\Edit.cshtml" />
+    <Content Include="Views\Specializations\Index.cshtml" />
+    <Content Include="Views\Specializations\Show.cshtml" />
+    <Content Include="Views\Specializations\New.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Consultations\" />
     <Folder Include="Views\Patients\" />
     <Folder Include="Views\Reviews\" />
-    <Folder Include="Views\Specializations\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

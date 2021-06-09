@@ -14,7 +14,7 @@ namespace PortalDocPat.Controllers
 
 			public ActionResult Index()
 			{
-				var specializations = db.Specialziations.Include("Doctors").OrderBy(spec => spec.SpecializationName);
+				var specializations = db.Specializations.Include("Doctors").OrderBy(spec => spec.SpecializationName);
 
 				if (TempData.ContainsKey("message"))
 				{
@@ -27,7 +27,7 @@ namespace PortalDocPat.Controllers
 			{
 				try
 				{
-					Specialization specialization = db.Specialziations.Find(id);
+					Specialization specialization = db.Specializations.Find(id);
 					ViewBag.Specialization = specialization;
 					ViewBag.Doctors = specialization.Doctors;
 
@@ -52,7 +52,7 @@ namespace PortalDocPat.Controllers
 				{
 					if (ModelState.IsValid)
 					{
-						db.Specialziations.Add(specialization);
+						db.Specializations.Add(specialization);
 						db.SaveChanges();
 						TempData["message"] = "Specializarea a fost adaugata!";
 						return RedirectToAction("Index");
@@ -72,9 +72,8 @@ namespace PortalDocPat.Controllers
 
 			public ActionResult Edit(int id)
 			{
-				Specialization specialization = db.Specialziations.Find(id);
-				ViewBag.Specialization = specialization;
-				return View();
+				Specialization specialization = db.Specializations.Find(id);
+				return View(specialization);
 			}
 
 
@@ -85,7 +84,7 @@ namespace PortalDocPat.Controllers
 				{
 					if (ModelState.IsValid)
 					{
-						Specialization specialization = db.Specialziations.Find(id);
+						Specialization specialization = db.Specializations.Find(id);
 						if (TryUpdateModel(specialization))
 						{
 							specialization.SpecializationName = requestSpecialization.SpecializationName;
@@ -110,8 +109,8 @@ namespace PortalDocPat.Controllers
 			{
 				try
 				{
-					Specialization specialization = db.Specialziations.Find(id);
-					db.Specialziations.Remove(specialization);
+					Specialization specialization = db.Specializations.Find(id);
+					db.Specializations.Remove(specialization);
 					TempData["message"] = "Specializarea a fost stearsa!";
 					db.SaveChanges();
 					return RedirectToAction("Index");
