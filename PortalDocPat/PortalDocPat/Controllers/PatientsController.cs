@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Diagnostics;
 
 namespace PortalDocPat.Controllers
 {
@@ -17,18 +18,20 @@ namespace PortalDocPat.Controllers
 		{
             try
             {
-                Patient pat = db.Patients.Where(i => i.UserId == User.Identity.GetUserId()).ToList()[0];
+                var userCurent = User.Identity.GetUserId();
+                Patient pat = db.Patients.Where(i => i.UserId == userCurent).First();
 
+                
                 ViewBag.Patient = pat;
                 ViewBag.Name = pat.Name;
                 ViewBag.Sex = pat.Sex;
                 ViewBag.BirthDay = pat.BirthDay;
 
-                return View(pat);
+                return View();
             }
             catch (Exception e)
             {
-
+                
                 return RedirectToAction("New");
             }
 

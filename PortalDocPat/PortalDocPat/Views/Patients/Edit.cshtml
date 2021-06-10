@@ -6,7 +6,7 @@
 {
     @Html.HttpMethodOverride(HttpVerbs.Put)
 
-    @Html.Label("Nume", "Nume pacient")<br />
+    @Html.Label("Name", "Nume pacient")<br />
     @Html.EditorFor(m => m.Name)
     @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
     <br /><br />
@@ -19,19 +19,13 @@
 
     <label>Selectati sexul &ensp; &ensp;</label>
 
-    @Html.DropDownListFor(
-               model => model.Sex,
-               new SelectList(
-                      new List<Object>{
-                       new { value = 0 , text = "Masculin"  },
-                       new { value = 1 , text = "Feminin" },
-                       new { value = 2 , text = "Altul"}
-                        },
-                      "value",
-                      "text",
-                       Model.Sex
-               )
-            )
+    @Html.DropDownListFor(model => model.Sex,
+                  new List<SelectListItem> {
+                       new SelectListItem { Value = "Masculin" , Text = "Masculin" },
+                       new SelectListItem { Value = "Feminin" , Text = "Feminin" },
+                       new SelectListItem { Value = "Altul" , Text = "Altul" }
+                    },
+                  new { @class="myselect"})
     <br />
     @Html.ValidationMessage("Sex", "", new { @class = "text-danger" })
 
