@@ -1,0 +1,63 @@
+﻿
+<style>
+    body {
+        background-image: url('https://media.xconomy.com/wordpress/wp-content/images/2020/02/27123419/iStock-1131469143.jpg');
+    }
+</style>
+
+<div class="container-fluid">
+    <br />
+    <a class="btn btn-info" href="/Doctors/Index"><i class="fa fa-arrow-left"></i>  Inapoi la pagina principala</a>
+    <br /><br />
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="text-center text-success">Salut, @ViewBag.Patient.Name</h4>
+                </div>
+                <div class="panel-body">
+
+                    <img class="img-responsive" src="https://cdn.iconscout.com/icon/free/png-512/avatar-372-456324.png" style="height:200px; margin:auto;" alt="poza_utilizator" />
+                    <hr />
+
+                    <div class="text-center">
+                        <h4>Email: @ViewBag.UserCurent.UserName</h4>
+                        <br />
+                        <h4>Nu aveti niciun mesaj nou.</h4>
+                        <br />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="pull-left">Panou date personale</h4>
+                    <a class="btn btn-success pull-right" href="/Patients/Edit/@ViewBag.Patient.PatiendId"><i class="fa fa-edit"></i> Modifica Date</a>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="panel-body">
+                    <br />
+                    <h4>Greutatea corpului: @ViewBag.Patient.Kg</h4>
+                    <br />
+                    <hr />
+                    <br />
+                    <h4>Data nasterii: @ViewBag.Patient.BirthDay</h4>
+                    <br />
+                    <hr />
+                    <br />
+                    <h4>Sexul: @ViewBag.Patient.Sex</h4>
+                    <br />
+                    <hr />
+                    <br />
+                    <h4>Alergii mentionate: @ViewBag.Patient.Allergies</h4>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
