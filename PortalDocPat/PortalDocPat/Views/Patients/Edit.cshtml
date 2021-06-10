@@ -1,0 +1,50 @@
+﻿@model PortalDocPat.Models.Patient
+
+<h2 class="text-primary">Editare informatii personale</h2>
+
+@using (Html.BeginForm(actionName: "Edit", controllerName: "Patients", routeValues: new { id = Model.UserId }))
+{
+    @Html.HttpMethodOverride(HttpVerbs.Put)
+
+    @Html.Label("Nume", "Nume pacient")<br />
+    @Html.EditorFor(m => m.Name)
+    @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+    <br /><br />
+
+    @Html.Label("BirthDay", "Data nasterii")
+    <br />
+
+    @Html.EditorFor(model => model.BirthDay, new { htmlAttributes = new { @class = "form-control" } })
+    <br />
+
+    <label>Selectati sexul &ensp; &ensp;</label>
+
+    @Html.DropDownListFor(
+               model => model.Sex,
+               new SelectList(
+                      new List<Object>{
+                       new { value = 0 , text = "Masculin"  },
+                       new { value = 1 , text = "Feminin" },
+                       new { value = 2 , text = "Altul"}
+                        },
+                      "value",
+                      "text",
+                       Model.Sex
+               )
+            )
+    <br />
+    @Html.ValidationMessage("Sex", "", new { @class = "text-danger" })
+
+    <br />
+
+    @Html.Label("Kg", "Adaugare greutate")
+    <br />
+    @Html.EditorFor( m => m.Kg)
+    <br />
+
+    @Html.Label("Allergies", "Alergii")
+    <br />
+    @Html.EditorFor(model => model.Allergies)
+
+    <button class="btn btn-sm btn-success" type="submit">Modifica informatii</button>
+}

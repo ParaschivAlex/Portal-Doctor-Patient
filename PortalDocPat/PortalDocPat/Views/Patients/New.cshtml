@@ -1,0 +1,46 @@
+﻿@model PortalDocPat.Models.Patient
+
+
+<h2>Adaugare informatii personale</h2>
+
+@using (Html.BeginForm(actionName: "New", controllerName: "Patients"))
+{
+
+    @Html.Label("Name", "Nume pacient")
+    <br />
+    @Html.TextBox("Name", null, new { @class = "form-control" })
+    @Html.ValidationMessageFor(m => m.Name, null, new { @class = "text-danger" })
+    <br />
+
+    @Html.Label("BirthDay", "Data nasterii")
+    <br />
+
+    @Html.EditorFor(model => model.BirthDay, new { htmlAttributes = new { @class = "form-control" } })
+    <br />
+
+    <label>Selectati sexul &ensp; &ensp;</label>
+
+    @Html.DropDownListFor(model => model.Sex,
+                  new List<SelectListItem> {
+                       new SelectListItem { Value = "0" , Text = "Masculin" },
+                       new SelectListItem { Value = "1" , Text = "Feminin" },
+                       new SelectListItem { Value = "2" , Text = "Altul" }
+                    },
+                  new { @class="myselect"})
+    <br />
+    @Html.ValidationMessage("Sex", "", new { @class = "text-danger" })
+
+    <br />
+
+    @Html.Label("Kg", "Adaugare greutate")
+    <br />
+    @Html.TextBox("Kg", null, new { @class = "form-control" })
+    <br />
+    @Html.Label("Allergies", "Alergii")
+    <br />
+    @Html.TextArea("Allergies", null, new { @class = "form-control" })
+
+
+    <br />
+    <button class="btn btn-sm btn-success" type="submit">Adauga informatii</button>
+}
