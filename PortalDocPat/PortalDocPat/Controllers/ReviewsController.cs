@@ -40,7 +40,6 @@ namespace PortalDocPat.Controllers
 		}
 
 		[HttpDelete]
-		[Authorize(Roles = "User,Doctor,Admin")]
 		public ActionResult Delete(int id)
 		{
 			Review rev = db.Reviews.Find(id);
@@ -58,7 +57,6 @@ namespace PortalDocPat.Controllers
 		}
 
 
-		[Authorize(Roles = "User,Colaborator,Admin")]
 		public ActionResult Edit(int id)
 		{	
 			Review rev = db.Reviews.Find(id);
@@ -76,7 +74,6 @@ namespace PortalDocPat.Controllers
 		}
 
 		[HttpPut]
-		[Authorize(Roles = "User,Colaborator,Admin")]
 		public ActionResult Edit(int id, Review requestReview)
 		{
 			try

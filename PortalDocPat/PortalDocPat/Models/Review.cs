@@ -28,5 +28,6 @@ namespace PortalDocPat.Models
 		public virtual Patient Patient { get; set; }
 
 		public string UserId { get; internal set; }
-	}
+        public virtual ApplicationUser User { get; set; }
+    }
 }

@@ -129,7 +129,6 @@ namespace PortalDocPat.Controllers
 		}
 
 		[HttpPost]
-		[Authorize(Roles = "User,Colaborator,Admin")]
 		public ActionResult NewReview(Review rev)
 		{
 			rev.Date = DateTime.Now;
