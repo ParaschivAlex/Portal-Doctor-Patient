@@ -1,0 +1,37 @@
+﻿@model PortalDocPat.Models.Doctor
+
+<style>
+body { background-image: url('https://pdxinc.com/wp-content/uploads/iStock-1139879730.jpg'); }
+</style>
+<h2>Adaugare doctor</h2>
+
+@using (Html.BeginForm(actionName: "New", controllerName: "Doctors"))
+{
+
+    @Html.Label("Nume", "Nume Doctor")
+    <br />
+    @Html.TextBox("Nume", null, new { @class = "form-control" })
+    @Html.ValidationMessageFor(m => m.Name, null, new { @class = "text-danger" })
+    <br />
+
+    @Html.Label("Telefon", "Numar de telefon")
+    <br />
+    @Html.TextArea("Telefon", null, new { @class = "form-control" })
+    @Html.ValidationMessage("Telefon", "", new { @class = "text-danger" })
+    <br />
+
+    @Html.Label("PriceRate", "Adaugare rata de pret")
+    <br />
+    @Html.TextBox("PriceRate", null, new { @class = "form-control" })
+    @Html.ValidationMessage("PriceRate", "", new { @class = "text-danger" })
+    <br />
+
+    
+    <label>Selectati specializarea</label>
+    @Html.DropDownListFor(m => m.SpecializationId, new SelectList(Model.Spec, "Value", "Text"),
+        "Selectati specializarea", new { @class = "form-control" })
+    <br />
+    @Html.ValidationMessage("SpecializationId", "", new { @class = "text-danger" })
+
+    <button class="btn btn-sm btn-success" type="submit">Adauga doctor</button>
+}

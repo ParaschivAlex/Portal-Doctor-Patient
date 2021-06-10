@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Adaugare Specializare";
+}
+<style>
+    body {
+        background-image: url('https://blog.imedicina.com.br/wp-content/uploads/2020/04/shutterstock_1095961244.jpg');
+    }
+</style>
+
+<h2>Adaugare Specializare</h2>
+
+<form method="post" action="/Specializations/New">
+
+    @Html.Label("SpecializationName", "Denumire specializare")
+    <br />
+    @Html.TextBox("SpecializationName", null, new { @class = "form-control" })
+    <br />
+
+    @Html.Label("Price", "Adaugare pret standard")
+    <br />
+    @Html.TextBox("Price", null, new { @class = "form-control" })
+    @Html.ValidationMessage("Price", "", new { @class = "text-danger" })
+    <br />
+
+    <button class="btn btn-success" type="submit">Adauga specializare</button>
+</form>

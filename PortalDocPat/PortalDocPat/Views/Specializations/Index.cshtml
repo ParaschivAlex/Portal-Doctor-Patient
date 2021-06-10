@@ -1,0 +1,26 @@
+﻿<style>
+body { background-image: url('https://blog.imedicina.com.br/wp-content/uploads/2020/04/shutterstock_1095961244.jpg'); }
+</style>
+
+
+@if (TempData.ContainsKey("message"))
+{
+    <h1>@ViewBag.message</h1>
+}
+
+<h2>@ViewBag.Title</h2>
+<br />
+
+@foreach (var specialization in ViewBag.Specializations)
+{
+    @Html.Label("SpecializationName", "Denumire specializare")
+    <p>@specialization.SpecializationName</p>
+    <a class="btn btn-success" href="/Specializations/Show/@specialization.SpecializationId">Afisare specializare</a>
+    <a class="btn btn-success" href="/Specializations/Edit/@specialization.SpecializationId">Editare specializare</a>
+    <br />
+    <hr />
+    <br />
+}
+<br />
+<a class="btn btn-primary" href="/Specializations/New">Adauga specializare</a>
+<br />

@@ -1,0 +1,29 @@
+﻿@model PortalDocPat.Models.Specialization
+@{
+    ViewBag.Title = "Afisare specializare";
+}
+
+<style>
+    body {
+        background-image: url('https://blog.imedicina.com.br/wp-content/uploads/2020/04/shutterstock_1095961244.jpg');
+    }
+</style>
+
+<h2>@ViewBag.Title</h2>
+
+<p>@Model.SpecializationName</p>
+
+<p>
+    Pret standard:&ensp; @Model.Price
+</p>
+
+<form method="post" action="/Specializations/Delete/@Model.SpecializationId">
+
+    @Html.HttpMethodOverride(HttpVerbs.Delete)
+
+    <button class="btn btn-success" type="submit">Sterge specializarea</button>
+
+</form>
+<br />
+<a class="btn btn-success" href="/Specializations/Index/">Afisare lista specializari</a>
+
