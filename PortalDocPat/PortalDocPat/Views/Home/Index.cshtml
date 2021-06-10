@@ -2,30 +2,84 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<style>
+    .alert {
+        padding: 20px;
+        background-color: #f44336;
+        color: white;
+        opacity: 1;
+        transition: opacity 0.6s;
+        margin-bottom: 15px;
+        color: white;
+    }
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
+    .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .alert.warning {
+        background-color: #ff9800;
+    }
+
+    .closebtn:hover {
+        color: black;
+    }
+
+    .paragraf {
+        border: 2px solid powderblue;
+        padding: 30px;
+    }
+
+    body {
+        background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v870-tang-36_1.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e77ca41f1c0b52331b41ac8cdfed783a');
+    }
+</style>
+        
+<body>
+    <marquee> Project members: Coaje Petrut, Paraschiv Alexandru, Popescu Maria, Staicu Bogdan. </marquee>
+
+    <div class="jumbotron">
+        <h1>Portal Doctor Patient</h1>
+        <p class="lead"> The main purpose of this website is to help patients book a doctor's appointment with a few easy steps on the internet.</p>
+    </div>
+
+    <div class="row">
+        <div class="paragraf">
+            <h2> Creating your account </h2>
+            <p>
+                On this website you can create your own account as a patient, using data such as height, weight, age etc.
+            </p>
+        </div>
+        <div class="paragraf">
+            <h2> Find your doctor </h2>
+            <p>
+                You can find a doctor, see their reviews and their specialisation.
+            </p>
+        </div>
+        <div class="paragraf">
+            <h2> Come back later </h2>
+            <p>
+                Your medical history will also be saved.
+            </p>
+        </div>
+    </div>
+
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        <strong>Warning!</strong> Because of the current COVID situation, it is mandatory for clients to wear a mask and respect socially distancing rules.
+        If you had contact with the virus contact special services.
+    </div>
+
+    <div>
         <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
+            The time is @DateTime.Now
         </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+</body>
