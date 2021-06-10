@@ -12,41 +12,49 @@ namespace PortalDocPat.Controllers
     {
 		private ApplicationDbContext db = new ApplicationDbContext();
 
-		// [Authorize(Roles = "User,Doctor,Admin")]
-		public ActionResult Show(int id)
+        
+		public ActionResult Show()
 		{
-			Patient pat = db.Patients.Find(id);
-			ViewBag.Patient = pat;
-			ViewBag.Name = pat.Name;
-			ViewBag.Sex = pat.Sex;
-			ViewBag.BirthDay = pat.BirthDay;
-			ViewBag.Age = pat.Age;
-			ViewBag.utilizatorCurent = User.Identity.GetUserId();
-			return View(pat);
+            try
+            {
+                Patient pat = db.Patients.Where(i => i.UserId == User.Identity.GetUserId()).ToList()[0];
+
+                ViewBag.Patient = pat;
+                ViewBag.Name = pat.Name;
+                ViewBag.Sex = pat.Sex;
+                ViewBag.BirthDay = pat.BirthDay;
+
+                return View(pat);
+            }
+            catch (Exception e)
+            {
+
+                return RedirectToAction("New");
+            }
 
 		}
 
-		[Authorize(Roles = "Admin")]
 		public ActionResult New()
 		{
 			Patient pat = new Patient();
+            
 			return View(pat);
 		}
 
 		[HttpPost]
-		[Authorize(Roles = "Admin")]
 		public ActionResult New(Patient patient)
 		{
 			try
 			{
-				db.Patients.Add(patient);
+                patient.UserId = User.Identity.GetUserId();
+                db.Patients.Add(patient);
 				db.SaveChanges();
-				TempData["message"] = "Pacientul a fost adaugat!";
-				return RedirectToAction("Index");
+				TempData["message"] = "Informatiile au fost adaugate!";
+				return RedirectToAction("Show");
 			}
 			catch (Exception e)
 			{
-				return View(e.ToString());
+				return View();
 			}
 		}
 

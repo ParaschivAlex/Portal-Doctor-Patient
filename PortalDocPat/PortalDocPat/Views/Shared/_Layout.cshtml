@@ -11,20 +11,34 @@
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header" style="display:inline;">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+
+                <div class="dropdown">
+                    <button class="buton_setari" style="background-color:transparent; border: none; outline: none; font-size:32px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li> @Html.ActionLink("Doctori", "Index", "Doctors")</li>
+                        @if (User.IsInRole("Patient"))
+                        {
+                            
+                            <li>@Html.ActionLink("Informatii personale", "Show", "Patients")</li>
+                        }
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li>@Html.ActionLink("Afisare specializari", "Index", "Specializations")</li>
+                            <li>@Html.ActionLink("Adaugare specializari", "New", "Specializations")</li>
+                        }
+                    </ul>
+                </div>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
+            <div class="navbar-collapse collapse" style="font-size:20px">
+                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
                 @Html.Partial("_LoginPartial")
             </div>
         </div>

@@ -22,3 +22,11 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.buton_setari {
+    color: #828282;
+}
+
+.buton_setari:hover {
+    color: white;
+}
