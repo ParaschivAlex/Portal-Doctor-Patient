@@ -26,19 +26,20 @@
                         <li> @Html.ActionLink("Doctori", "Index", "Doctors")</li>
                         @if (User.IsInRole("Patient"))
                         {
-                            
+
                             <li>@Html.ActionLink("Informatii personale", "Show", "Patients")</li>
                         }
                         @if (User.IsInRole("Admin"))
                         {
                             <li>@Html.ActionLink("Afisare specializari", "Index", "Specializations")</li>
                             <li>@Html.ActionLink("Adaugare specializari", "New", "Specializations")</li>
+                            <li>@Html.ActionLink("Adaugare Doctor", "New", "Doctors")</li>
                         }
                     </ul>
                 </div>
             </div>
             <div class="navbar-collapse collapse" style="font-size:20px">
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink(" Clinica MedSana", "Index", "Doctors", new { area = "" }, new { @class = "navbar-brand" })
                 @Html.Partial("_LoginPartial")
             </div>
         </div>
@@ -47,7 +48,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - Clinica MedSana&trade;</p>
         </footer>
     </div>
 

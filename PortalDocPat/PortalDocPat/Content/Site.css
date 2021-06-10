@@ -30,3 +30,8 @@ textarea {
 .buton_setari:hover {
     color: white;
 }
+
+.navbar {
+    background-color: #4e0e0e;
+    border: none;
+}

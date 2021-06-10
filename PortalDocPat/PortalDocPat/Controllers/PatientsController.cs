@@ -18,15 +18,12 @@ namespace PortalDocPat.Controllers
 		{
             try
             {
+                // iau pacientul care corespunde user-ului curent si in view afisez 
                 var userCurent = User.Identity.GetUserId();
                 Patient pat = db.Patients.Where(i => i.UserId == userCurent).First();
 
-                
+                ViewBag.UserCurent = db.Users.Find(User.Identity.GetUserId());
                 ViewBag.Patient = pat;
-                ViewBag.Name = pat.Name;
-                ViewBag.Sex = pat.Sex;
-                ViewBag.BirthDay = pat.BirthDay;
-
                 return View();
             }
             catch (Exception e)
@@ -61,7 +58,7 @@ namespace PortalDocPat.Controllers
 			}
 		}
 
-		[Authorize(Roles = "User,Admin")]
+		[Authorize(Roles = "Patient,Admin")]
 		public ActionResult Edit(int id)
 		{
 
@@ -74,7 +71,7 @@ namespace PortalDocPat.Controllers
 
 
 		[HttpPut]
-		[Authorize(Roles = "User,Admin")]
+		[Authorize(Roles = "Patient,Admin")]
 		public ActionResult Edit(int id, Patient requestPatient)
 		{
 			try
@@ -85,12 +82,12 @@ namespace PortalDocPat.Controllers
 					pat = requestPatient;
 					db.SaveChanges();
 					TempData["message"] = "Pacientul a fost modificat!";
-					return RedirectToAction("Index");
-				}
+					return Redirect("/Doctors/Index");
+                }
 				else
 				{
 					TempData["message"] = "Nu aveti dreptul sa faceti modificari asupra unui pacient";
-					return RedirectToAction("Index");
+					return Redirect("/Doctors/Index");
 				}
 			}
 			catch (Exception e)
@@ -100,7 +97,7 @@ namespace PortalDocPat.Controllers
 		}
 
 		[HttpDelete]
-		[Authorize(Roles = "User,Admin")]
+		[Authorize(Roles = "Patient,Admin")]
 		public ActionResult Delete(int id)
 		{
 			Patient pat = db.Patients.Find(id);
@@ -110,13 +107,13 @@ namespace PortalDocPat.Controllers
 				db.Patients.Remove(pat);
 				db.SaveChanges();
 				TempData["message"] = "Pacientul a fost sters!";
-				return RedirectToAction("Index");
-			}
+				return Redirect("/Doctors/Index");
+            }
 			else
 			{
 				TempData["message"] = "Nu aveti dreptul sa stergeti un pacient";
-				return RedirectToAction("Index");
-			}
+				return Redirect("/Doctors/Index");
+            }
 		}
 	}
 }
