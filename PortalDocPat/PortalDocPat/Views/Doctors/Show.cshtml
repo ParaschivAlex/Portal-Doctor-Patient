@@ -5,22 +5,36 @@
 <div class="panel panel-default">
     <div class="panel-body">
         <h4 class="text-center text-primary">@Model.Name</h4>
+        <img class="img-responsive" src="@Model.Photo" alt="poza produsului" style="height:200px; margin:auto;" />
         <hr />
         <div class="row">
             <div class="col-md-4">
-                
+
+                Rating:&ensp;
                 @if (Model.Rating != 0)
                 {
-                <p> Rating:&ensp; Model.Rating</p>
+                    var j = 0;
+                    for (var i = 1; i <= Model.Rating; i++)
+                    {
+                        <i class="fa fa-star" style="color:gold;"></i>
+                        j++;
+                    }
+                    if (Model.Rating - j != 0)
+                    {
+                        <i class="fa fa-star-half-full" style="color:gold;"></i>
+                    }
+                    for (var i = 10 - Model.Rating; i >= 1; i--)
+                    {
+                        <i class="fa fa-star-o" style="color:gold;"></i>
+                    }
                 }
                 else
                 {
                     <p>Fii primul care lasa un review!</p>
                 }
-
             </div>
             <div class="col-md-8">
-                
+
             </div>
         </div>
     </div>
@@ -66,48 +80,48 @@
     <div class="col-md-7">
         <div class="panel panel-default">
             <div class="panel-body">
-                <form method="post" action="">
+                <form method="post" action="/Doctors/NewReview">
                     <input type="hidden" name="DoctorId" value="@Model.DoctorId" />
                     <label for="rating-1">
-                        <input id="rating-1" class="form-check-input" type="radio" name="Rating" value="1">&ensp;1&ensp;
+                        <input id="rating-1" class="form-check-input" type="radio" name="Grade" value="1">&ensp;1&ensp;
                     </label>
                     <label for="rating-2">
-                        <input id="rating-2" class="form-check-input" type="radio" name="Rating" value="2">&ensp;2&ensp;
+                        <input id="rating-2" class="form-check-input" type="radio" name="Grade" value="2">&ensp;2&ensp;
                     </label>
                     <label for="rating-3">
-                        <input id="rating-3" class="form-check-input" type="radio" name="Rating" value="3">&ensp;3&ensp;
+                        <input id="rating-3" class="form-check-input" type="radio" name="Grade" value="3">&ensp;3&ensp;
                     </label>
                     <label for="rating-4">
-                        <input id="rating-4" class="form-check-input" type="radio" name="Rating" value="4">&ensp;4&ensp;
+                        <input id="rating-4" class="form-check-input" type="radio" name="Grade" value="4">&ensp;4&ensp;
                     </label>
                     <label for="rating-5">
-                        <input id="rating-5" class="form-check-input" type="radio" name="Rating" value="5" checked>&ensp;5&ensp;
+                        <input id="rating-5" class="form-check-input" type="radio" name="Grade" value="5" checked>&ensp;5&ensp;
                     </label>
                     <label for="rating-5">
-                        <input id="rating-5" class="form-check-input" type="radio" name="Rating" value="5" checked>&ensp;5&ensp;
+                        <input id="rating-5" class="form-check-input" type="radio" name="Grade" value="5" checked>&ensp;5&ensp;
                     </label>
                     <label for="rating-6">
-                        <input id="rating-6" class="form-check-input" type="radio" name="Rating" value="6" checked>&ensp;6&ensp;
+                        <input id="rating-6" class="form-check-input" type="radio" name="Grade" value="6" checked>&ensp;6&ensp;
                     </label>
                     <label for="rating-7">
-                        <input id="rating-7" class="form-check-input" type="radio" name="Rating" value="7" checked>&ensp;7&ensp;
+                        <input id="rating-7" class="form-check-input" type="radio" name="Grade" value="7" checked>&ensp;7&ensp;
                     </label>
                     <label for="rating-8">
-                        <input id="rating-8" class="form-check-input" type="radio" name="Rating" value="8" checked>&ensp;8&ensp;
+                        <input id="rating-8" class="form-check-input" type="radio" name="Grade" value="8" checked>&ensp;8&ensp;
                     </label>
                     <label for="rating-9">
-                        <input id="rating-9" class="form-check-input" type="radio" name="Rating" value="9" checked>&ensp;9&ensp;
+                        <input id="rating-9" class="form-check-input" type="radio" name="Grade" value="9" checked>&ensp;9&ensp;
                     </label>
                     <label for="rating-10">
-                        <input id="rating-10" class="form-check-input" type="radio" name="Rating" value="10" checked>&ensp;10&ensp;
+                        <input id="rating-10" class="form-check-input" type="radio" name="Grade" value="10" checked>&ensp;10&ensp;
                     </label>
-                    @Html.ValidationMessage("Rating", "", new { @class = "text-danger" })
+                    @Html.ValidationMessage("Grade", "", new { @class = "text-danger" })
                     <br />
                     <label>
                         Continut review
                     </label>
-                    <textarea class="form-control" name="Content" style="box-sizing: border-box; max-width: 100%; min-height:150px;"></textarea>
-                    @Html.ValidationMessage("Content", "", new { @class = "text-danger" })
+                    <textarea class="form-control" name="Comment" style="box-sizing: border-box; max-width: 100%; min-height:150px;"></textarea>
+                    @Html.ValidationMessage("Comment", "", new { @class = "text-danger" })
                     <h5 class="text-danger">@ViewBag.Message</h5>
                     <button class="btn btn-success" type="submit"><i class="fa fa-plus"></i> Adauga review</button>
                 </form>

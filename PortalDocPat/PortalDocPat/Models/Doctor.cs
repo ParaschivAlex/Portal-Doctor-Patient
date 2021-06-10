@@ -22,6 +22,8 @@ namespace PortalDocPat.Models
 		public float PriceRate { get; set; }
 		public float Rating { get; set; }
 
+        public string Photo { get; set; }
+
 		public int SpecializationId { get; set; }
 		public virtual Specialization Specialization { get; set; }
 		public IEnumerable<SelectListItem> Spec { get; set; }

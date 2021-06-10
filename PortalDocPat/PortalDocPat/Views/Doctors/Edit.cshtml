@@ -6,18 +6,23 @@
 {
     @Html.HttpMethodOverride(HttpVerbs.Put)
 
-    @Html.Label("Nume", "Nume Doctor")<br />
+    @Html.Label("Name", "Nume Doctor")<br />
     @Html.EditorFor(m => m.Name)
     @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
     <br /><br />
 
-    @Html.Label("Telefon", "Numar de telefon")
+    @Html.Label("Phone", "Numar de telefon")
     <br />
-    @Html.TextArea("Telefon", null, new { @class = "form-control" })
-    @Html.ValidationMessage("Telefon", "", new { @class = "text-danger" })
+    @Html.TextArea("Phone", null, new { @class = "form-control" })
+    @Html.ValidationMessage("Phone", "", new { @class = "text-danger" })
     <br />
 
-    @Html.Label("Pret", "Pret Produs")<br />
+    @Html.Label("Photo", "Poza Doctor")<br />
+    @Html.EditorFor(m => m.Photo)
+    @Html.ValidationMessageFor(m => m.Photo, "", new { @class = "text-danger" })
+    <br /><br />
+
+    @Html.Label("PriceRate", "Rata pret")<br />
     @Html.EditorFor(m => m.PriceRate)
     @Html.ValidationMessageFor(m => m.PriceRate, "", new { @class = "text-danger" })
     <br /><br />
