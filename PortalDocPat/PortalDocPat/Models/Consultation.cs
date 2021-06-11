@@ -25,7 +25,5 @@ namespace PortalDocPat.Models
 		public DateTime EndDate { get; set; }
 		*/
 
-		public bool CancelStatus { get; set; }
-
 	}
 }

@@ -270,10 +270,10 @@
     <Content Include="Views\Patients\New.cshtml" />
     <Content Include="Views\Patients\Show.cshtml" />
     <Content Include="Views\Patients\Edit.cshtml" />
+    <Content Include="Views\Consultations\New.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Consultations\" />
     <Folder Include="Views\Reviews\" />
   </ItemGroup>
   <ItemGroup>
