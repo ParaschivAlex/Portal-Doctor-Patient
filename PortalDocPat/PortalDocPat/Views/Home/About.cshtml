@@ -1,7 +1,43 @@
 ﻿@{
     ViewBag.Title = "About";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<style>
+    body {
+        background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v870-tang-36_1.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e77ca41f1c0b52331b41ac8cdfed783a');
+    }
+</style>
 
-<p>Use this area to provide additional information.</p>
+<body>
+    <marquee> Project members: Coaje Petrut, Paraschiv Alexandru, Popescu Maria, Staicu Bogdan. </marquee>
+    <div class="jumbotron">
+        <h1>Portal Doctor Patient</h1>
+        <p class="lead"> The main purpose of this website is to help patients book a doctor's appointment with a few easy steps on the internet.</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2> Creating your account </h2>
+            <p>
+                On this website you can create your own account as a patient, using data such as height, weight, age etc.
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2> Find your doctor </h2>
+            <p>
+                You can find a doctor, see their reviews and their specialisation.
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2> Come back later </h2>
+            <p>
+                Your medical history will also be saved.
+            </p>
+        </div>
+    </div>
+
+    <div>
+        <p>
+            The time is @DateTime.Now
+        </p>
+    </div>
+</body>
