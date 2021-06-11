@@ -14,6 +14,11 @@ namespace PortalDocPat.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
         // GET: Consultations
 
+        public ActionResult Index()
+        {
+            return View();
+        }
+
         public ActionResult New(int id)
         {
             Consultation cons = new Consultation();

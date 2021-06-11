@@ -1,4 +1,5 @@
-﻿
+﻿@model PortalDocPat.Models.Patient
+
 <style>
     body {
         background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('https://media.xconomy.com/wordpress/wp-content/images/2020/02/27123419/iStock-1131469143.jpg');
@@ -31,8 +32,23 @@
                         <h4>Nu aveti niciun mesaj nou.</h4>
                         <br />
                         <hr />
-                        <h4>Consultatii: </h4><br />
-
+                        @*@if(Model.Consultations != null && Model.Consultations.Count > 0)
+                        {
+                            <h4>Consultatii viitoare: </h4><br />
+                        foreach (var con in Model.Consultations)
+                        {
+                            <div>
+                                 <strong> @con.StartDate</strong>
+                            </div>
+                            <div style="display: inline-block; float : left">
+                                <form method="post" action="/Consultations/Delete/@con.ConsultationId">
+                                    @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                    <button class="glyphicon glyphicon-trash" style="border: none; background: transparent" type="submit"></button>
+                                </form>
+                            </div>
+                            <br />
+                        }
+                        }*@
                     </div>
                 </div>
             </div>
