@@ -1,6 +1,10 @@
 ﻿<style>
     body {
-        background-image: url('https://pdxinc.com/wp-content/uploads/iStock-1139879730.jpg');
+        background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v870-tang-36_1.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e77ca41f1c0b52331b41ac8cdfed783a");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
     }
 </style>
 
@@ -46,34 +50,42 @@
                         <img class="img-responsive" src="@doctor.Photo" alt="poza produsului" style="height:200px; margin:auto;" />
                     </a>
                     <br /><br />
-                    Rating:&ensp;
-                    @if (!float.IsNaN(doctor.Rating))
-                    {
-                        var j = 0;
-                        for (var i = 1; i <= doctor.Rating; i++)
-                        {
-                            <i class="fa fa-star" style="color:gold;"></i>
-                            j++;
-                        }
-                        if (doctor.Rating - j != 0)
-                        {
-                            <i class="fa fa-star-half-full" style="color:gold;"></i>
-                        }
-                        for (var i = 10 - doctor.Rating; i >= 1; i--)
-                        {
-                            <i class="fa fa-star-o" style="color:gold;"></i>
-                        }
+                          <h4>
+                              Rating:&ensp;
+                              @if (!float.IsNaN(doctor.Rating))
+                              {
+                                  var j = 0;
+                                  for (var i = 1; i <= doctor.Rating; i++)
+                                  {
+                                      <i class="fa fa-star" style="color:gold;"></i>
+                                      j++;
+                                  }
+                                  if (doctor.Rating - j != 0)
+                                  {
+                                      <i class="fa fa-star-half-full" style="color:gold;"></i>
+                                  }
+                                  for (var i = 10 - doctor.Rating; i >= 1; i--)
+                                  {
+                                      <i class="fa fa-star-o" style="color:gold;"></i>
+                                  }
+                              }
+                              else
+                              {
+                                  <a href="/Doctors/Show/@doctor.DoctorId">Fii primul care lasa un review!</a>
+                              }
+                          </h4>
+                    @{ 
+                        var pret = doctor.Specialization.Price * doctor.PriceRate;
                     }
-                    else
-                    {
-                        <a href="/Doctors/Show/@doctor.DoctorId">Fii primul care lasa un review!</a>
-                    }
-
+                    <h4>Pret consultatie: @pret RON</h4>
+                    <h4>Specializare: @doctor.Specialization.SpecializationName</h4>
                 </div>
                 <div class="panel-footer" style="display:block">
       
                     <div class="pull-right">
-                        <form method="post" action="">
+                        <form method="post" action="/Consultations/New">
+                            <input type="hidden" name="DoctorId" value="@doctor.DoctorId" />
+                            <input type="hidden" name="PatiendId" value="@ViewBag.Patient.PatiendId" />
                             <button type="submit" class="btn btn-success">
                                 <i class="fa fa-shopping-bag">&ensp;Solicita programare</i>
                             </button>
