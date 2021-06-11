@@ -1,4 +1,5 @@
 Contributia mea: 12 taskuri din  23.
 Am creat proiectul, am legat la o baza de date, am realizat migratiile, legat aplicatia pentru facebook login, 
 o pagina de contact cu iframe de google maps, am realizat diagrama UML impreuna cu Staicu Bogdan, 
-taskurile To Do si User Stories alaturi de toti ceilalti, am creat modelele si am facut toate controllerele in afara de unul.
+taskurile To Do si User Stories alaturi de toti ceilalti, am creat modelele,
+am facut toate controllerele in afara de unul (netestate pentru ca nu aveam view-uri) + bug reporting.
