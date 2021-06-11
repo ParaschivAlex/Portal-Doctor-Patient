@@ -1,5 +1,11 @@
 ﻿@model PortalDocPat.Models.Doctor
 
+<style>
+    body {
+        background-image: url('https://pdxinc.com/wp-content/uploads/iStock-1139879730.jpg');
+    }
+</style>
+
 <h2 class="text-primary">Editare doctor cu id @Model.DoctorId : @Model.Name</h2>
 
 @using (Html.BeginForm(actionName: "Edit", controllerName: "Doctors", routeValues: new { id = Model.DoctorId }))
