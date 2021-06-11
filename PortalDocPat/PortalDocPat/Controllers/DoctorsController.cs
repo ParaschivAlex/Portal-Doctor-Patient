@@ -70,11 +70,11 @@ namespace PortalDocPat.Controllers
 			//ViewBag.perPage = this._perPage;
 			ViewBag.total = totalDocs;
 			ViewBag.lastPage = Math.Ceiling((float)totalDocs / (float)this._perPage);
-			ViewBag.Doctors = paginatedDocs;
-
+            ViewBag.Doctors = paginatedDocs;
 			ViewBag.SearchString = search;
+            
 
-			return View();
+            return View();
 		}
 
 		public ActionResult SortareDoctori(int id)
