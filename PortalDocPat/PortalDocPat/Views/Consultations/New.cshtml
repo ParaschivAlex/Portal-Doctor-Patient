@@ -1,12 +1,30 @@
-﻿
+﻿@model PortalDocPat.Models.Consultation
 <h2>Adaugare Consultatie</h2>
 
-<form method="post" action="/Consultations/New">
-    <input type="hidden" name="PatiendId" value="@ViewBag.PatientId" />
-    <input type="hidden" name="DoctorId" value="@ViewBag.DoctorId" />
-    
 
 
-    <button class="btn btn-success" type="submit">Adauga consultatie</button>
+@using (Html.BeginForm("New", "Consultations", FormMethod.Post, new { id = ViewBag.DoctorId }))
+{
 
-</form>
+    @Html.Label("StartDate", "Adaugare data")
+    @Html.EditorFor(model => model.StartDate, new { htmlAttributes = new { @class = "datepicker" } })
+
+    <button class="btn btn-sm btn-success" type="submit"> Adauga programare</button>
+}
+
+<link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+
+@section scripts
+{
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".datepicker").datepicker({
+                dateFormat: "dd-mm-yy",
+                changemonth: true,
+                changeyear: true
+            });
+        });
+    </script>
+
+}

@@ -14,22 +14,25 @@ namespace PortalDocPat.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
         // GET: Consultations
 
-        public ActionResult New(int docId)
+        public ActionResult New(int id)
         {
-            Debug.WriteLine(docId);
-            ViewBag.DoctorId = docId;
+            Consultation cons = new Consultation();
+            Doctor doctor = db.Doctors.Find(id);
+            cons.DoctorId = doctor.DoctorId;
+            Debug.WriteLine(cons.DoctorId);
             var userCurent = User.Identity.GetUserId();
             Patient pat = db.Patients.Where(i => i.UserId == userCurent).First();
-            ViewBag.PatientId = pat.PatiendId;
+            cons.PatientId = pat.PatiendId;
 
-            var consultatii = db.Consultations.Where(i => i.DoctorId == docId);
+            var consultatii = db.Consultations.Where(i => i.DoctorId == id);
             List<DateTime> lista_consultatii = new List<DateTime>();
             foreach(Consultation c in consultatii)
             {
                 lista_consultatii.Add(c.StartDate);
             }
             ViewBag.ListaConsultatii = lista_consultatii;
-            return View();
+            ViewBag.DoctorId = cons.DoctorId;
+            return View(cons);
         }
 
         [HttpPost]
@@ -37,6 +40,9 @@ namespace PortalDocPat.Controllers
         {
             try
             {
+                Debug.WriteLine("Doctor id " + c.DoctorId);
+                Debug.WriteLine("Patient id " + c.PatientId);
+                Debug.WriteLine("Zi " + c.StartDate);
                 db.Consultations.Add(c);
                 db.SaveChanges();
                 return Redirect("/Doctors/Index");
