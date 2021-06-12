@@ -9,6 +9,7 @@ using System.Diagnostics;
 using System.Net.Mail;
 using System.Net;
 using System.Text;
+using System.Web.Security;
 
 namespace PortalDocPat.Controllers
 {
@@ -44,6 +45,20 @@ namespace PortalDocPat.Controllers
             {
                 db.Consultations.Add(c);
                 db.SaveChanges();
+                Debug.WriteLine("ajunge aici");
+                //string authorEmail = Membership.GetUser().Email;
+
+                //MembershipUser mu = Membership.GetUser();
+                //string authorEmail = mu.Email;
+
+
+                Debug.WriteLine("nu ajunge aici");
+                Doctor doc = db.Doctors.Find(c.DoctorId);
+
+                string notificationBody = "<p>Aveti o programare la doctorul </p>";
+                notificationBody += doc.Name + "<p> in data de </p>" + c.StartDate + ". <br /><p> O zi frumoasa!</p>";
+                SendEmailNotification("coajep@gmail.com", "Programare noua MedSana", notificationBody);
+
                 return Redirect("/Doctors/Index");
             }
             catch (Exception e)
