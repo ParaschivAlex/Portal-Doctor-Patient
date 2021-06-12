@@ -55,14 +55,9 @@
                 }
             </div>
             <div class="col-md-3" style="display:flex;">
-        
-                <form method="post" action="/Quantities/New">
-                    <input type="hidden" name="Id" value="@Model.DoctorId" />
-             
-                    <button type="submit" class="btn btn-success">
-                        <i class="fa fa-shopping-bag">&ensp;Solicita programare</i>
-                    </button>
-                </form>
+
+     
+                <a class="btn btn-success" href="/Consultations/New/@Model.DoctorId"><i class="fa fa-shopping-bag"></i>&ensp;Solicita programare</a>
 
             </div>
             <div class="col-md-4">
