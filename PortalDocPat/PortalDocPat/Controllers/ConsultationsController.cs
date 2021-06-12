@@ -14,21 +14,23 @@ namespace PortalDocPat.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
         // GET: Consultations
 
-        public ActionResult New(int docId)
+        public ActionResult New(int id)
         {
-            Debug.WriteLine(docId);
-            ViewBag.DoctorId = docId;
+            
+            ViewBag.DoctorId = id;
             var userCurent = User.Identity.GetUserId();
             Patient pat = db.Patients.Where(i => i.UserId == userCurent).First();
             ViewBag.PatientId = pat.PatiendId;
 
-            var consultatii = db.Consultations.Where(i => i.DoctorId == docId);
+            var consultatii = db.Consultations.Where(i => i.DoctorId == id);
             List<DateTime> lista_consultatii = new List<DateTime>();
             foreach(Consultation c in consultatii)
             {
                 lista_consultatii.Add(c.StartDate);
             }
             ViewBag.ListaConsultatii = lista_consultatii;
+
+            Debug.WriteLine(id);
             return View();
         }
 

@@ -24,6 +24,10 @@ namespace PortalDocPat.Controllers
 
                 ViewBag.UserCurent = db.Users.Find(User.Identity.GetUserId());
                 ViewBag.Patient = pat;
+
+                var consultatii = db.Consultations.Include("Doctor").Where(i => i.PatientId == pat.PatiendId);
+                ViewBag.Consultatii = consultatii;
+
                 return View();
             }
             catch (Exception e)
