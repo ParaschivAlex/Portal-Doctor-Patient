@@ -31,9 +31,9 @@ namespace PortalDocPat.Controllers
 					db.Reviews.Add(rev);
 					db.SaveChanges();
 					TempData["message"] = "Review adaugat cu succes";
-					return Redirect("/Books/Show/" + rev.PatientId);
+					return Redirect("/Doctors/Show/" + rev.PatientId);
 				}
-				return Redirect("/Books/Show/" + rev.PatientId);
+				return Redirect("/Doctors/Show/" + rev.PatientId);
 			}
 			catch (Exception)
 			{ return Redirect("/Doctors/Show/" + rev.PatientId); }
