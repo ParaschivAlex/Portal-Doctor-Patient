@@ -6,6 +6,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Diagnostics;
+using System.Net.Mail;
+using System.Net;
+using System.Text;
 
 namespace PortalDocPat.Controllers
 {
@@ -14,20 +17,13 @@ namespace PortalDocPat.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
         // GET: Consultations
 
-        public ActionResult Index()
-        {
-            return View();
-        }
-
         public ActionResult New(int id)
         {
-            Consultation cons = new Consultation();
-            Doctor doctor = db.Doctors.Find(id);
-            cons.DoctorId = doctor.DoctorId;
-            Debug.WriteLine(cons.DoctorId);
+            
+            ViewBag.DoctorId = id;
             var userCurent = User.Identity.GetUserId();
             Patient pat = db.Patients.Where(i => i.UserId == userCurent).First();
-            cons.PatientId = pat.PatiendId;
+            ViewBag.PatientId = pat.PatiendId;
 
             var consultatii = db.Consultations.Where(i => i.DoctorId == id);
             List<DateTime> lista_consultatii = new List<DateTime>();
@@ -36,8 +32,9 @@ namespace PortalDocPat.Controllers
                 lista_consultatii.Add(c.StartDate);
             }
             ViewBag.ListaConsultatii = lista_consultatii;
-            ViewBag.DoctorId = cons.DoctorId;
-            return View(cons);
+
+            Debug.WriteLine(id);
+            return View();
         }
 
         [HttpPost]
@@ -45,9 +42,6 @@ namespace PortalDocPat.Controllers
         {
             try
             {
-                Debug.WriteLine("Doctor id " + c.DoctorId);
-                Debug.WriteLine("Patient id " + c.PatientId);
-                Debug.WriteLine("Zi " + c.StartDate);
                 db.Consultations.Add(c);
                 db.SaveChanges();
                 return Redirect("/Doctors/Index");
@@ -66,5 +60,35 @@ namespace PortalDocPat.Controllers
             db.SaveChanges();
             return Redirect("/Patients/Show");
         }
+
+		private void SendEmailNotification(string toEmail, string subject, string content)
+		{
+			const string senderEmail = "mdstestportal@gmail.com";
+			const string senderPassword = "!1AdminAdmin";
+			const string smtpServer = "smtp.gmail.com";
+			const int smtpPort = 587;
+
+			SmtpClient smtpClient = new SmtpClient(smtpServer, smtpPort);
+			smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
+			smtpClient.EnableSsl = true;
+			smtpClient.UseDefaultCredentials = false;
+			smtpClient.Credentials = new NetworkCredential(senderEmail, senderPassword);
+
+			MailMessage email = new MailMessage(senderEmail, toEmail, subject, content);
+			email.IsBodyHtml = true;
+			email.BodyEncoding = UTF8Encoding.UTF8;
+
+			try
+			{
+				System.Diagnostics.Debug.WriteLine("Emailul se trimite...");
+				smtpClient.Send(email);
+				System.Diagnostics.Debug.WriteLine("Emailul a fost trimis cu succes!");
+			}
+			catch(Exception e)
+			{
+				System.Diagnostics.Debug.WriteLine("A aparut o eroare la trimiterea emailului.");
+				System.Diagnostics.Debug.WriteLine(e.Message.ToString());
+			}
+		}
     }
 }
