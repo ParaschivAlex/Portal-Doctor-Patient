@@ -1,12 +1,13 @@
-﻿
+﻿@model PortalDocPat.Models.Consultation
 <h2>Adaugare Consultatie</h2>
 
-<form method="post" action="/Consultations/New">
-    <input type="hidden" name="PatiendId" value="@ViewBag.PatientId" />
+@using (Html.BeginForm(actionName: "New", controllerName: "Consultations"))
+{
+    <input type="hidden" name="PatientId" value="@ViewBag.PatientId" />
     <input type="hidden" name="DoctorId" value="@ViewBag.DoctorId" />
-    
 
-
-    <button class="btn btn-success" type="submit">Adauga consultatie</button>
-
-</form>
+    <input type="date" name="StartDate" value="2021-06-13"/>
+    <br />
+    <br />
+    <button class="btn btn-sm btn-success" type="submit">Adauga informatii</button>
+}

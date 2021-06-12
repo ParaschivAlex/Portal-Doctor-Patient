@@ -32,6 +32,19 @@
                         <br />
                         <hr />
                         <h4>Consultatii: </h4><br />
+                        <ul class="list-group">                           
+                            @foreach(PortalDocPat.Models.Consultation c in ViewBag.Consultatii)
+                            {
+                            <li class="list-group-item">
+                                Data consultatiei: @c.StartDate.ToString().Substring(0, 9)<br />
+                                Doctorul: @c.Doctor.Name<br />
+                                <form method="post" action="/Consultations/Delete/@c.ConsultationId">
+                                    @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                    <button class="btn btn-danger fa fa-trash" type="submit"> Sterge</button>
+                                </form>
+                            </li>
+                            }
+                        </ul>
 
                     </div>
                 </div>
