@@ -22,20 +22,25 @@
                     <button class="buton_setari" style="background-color:transparent; border: none; outline: none; font-size:32px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <li> @Html.ActionLink("Doctori", "Index", "Doctors")</li>
-                        @if (User.IsInRole("Patient"))
-                        {
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<li>@Html.ActionLink("Acasa", "Index", "Home")</li>
+						<li> @Html.ActionLink("Doctori", "Index", "Doctors")</li>
+						@if (!User.IsInRole("Admin")) // ca sa apara si pentru facebook login (nu merge cu patient)
+						{
 
-                            <li>@Html.ActionLink("Informatii personale", "Show", "Patients")</li>
-                        }
-                        @if (User.IsInRole("Admin"))
-                        {
-                            <li>@Html.ActionLink("Afisare specializari", "Index", "Specializations")</li>
-                            <li>@Html.ActionLink("Adaugare specializari", "New", "Specializations")</li>
-                            <li>@Html.ActionLink("Adaugare Doctor", "New", "Doctors")</li>
-                        }
-                    </ul>
+							<li>@Html.ActionLink("Informatii personale", "Show", "Patients")</li>
+						}
+						@if (User.IsInRole("Admin"))
+						{
+							<li>@Html.ActionLink("Afisare specializari", "Index", "Specializations")</li>
+							<li>@Html.ActionLink("Adaugare specializari", "New", "Specializations")</li>
+							<li>@Html.ActionLink("Adaugare Doctor", "New", "Doctors")</li>
+							<li>@Html.ActionLink("Afisare utilizatori", "Index", "Users")</li>
+						}
+
+						<li>@Html.ActionLink("Despre noi", "About", "Home")</li>
+						<li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+					</ul>
                 </div>
             </div>
             <div class="navbar-collapse collapse" style="font-size:20px">
