@@ -3,41 +3,164 @@
 }
 <style>
     body {
+<<<<<<< Updated upstream
         background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v870-tang-36_1.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e77ca41f1c0b52331b41ac8cdfed783a');
     }
+=======
+        background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v870-tang-36_1.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e77ca41f1c0b52331b41ac8cdfed783a");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    :target {
+        color: lightyellow;
+        background: indianred;
+    }
+
+    h3,
+    h1 {
+        color: darkblue;
+    }
+
+    img {
+        border: 3px dashed indianred;
+    }
+
+    body {
+        counter-reset: srl;
+    }
+
+    h3::before {
+        counter-increment: srl;
+        content: counter(srl)". ";
+    }
+
+>>>>>>> Stashed changes
 </style>
 
 <body>
-    <marquee> Project members: Coaje Petrut, Paraschiv Alexandru, Popescu Maria, Staicu Bogdan. </marquee>
+
+    <marquee> Membrii proiect: Coaje Petrut, Paraschiv Alexandru, Popescu Maria, Staicu Bogdan. </marquee>
+
     <div class="jumbotron">
-        <h1>Portal Doctor Patient</h1>
-        <p class="lead"> The main purpose of this website is to help patients book a doctor's appointment with a few easy steps on the internet.</p>
+        <h1>Portal Doctor Pacient</h1>
+        <p class="lead">
+            Scopul principal al acestui site web este de a ajuta viitori pacienti sa isi rezerve o intalnire cu un medic in cativa pasi simpli pe internet.
+        </p>
     </div>
 
     <div class="row">
-        <div class="col-md-4">
-            <h2> Creating your account </h2>
+        <div class="paragraf">
+            <h2> Crearea unui cont </h2>
             <p>
-                On this website you can create your own account as a patient, using data such as height, weight, age etc.
+                Pe acest site web va puteti crea propriul cont ca pacient, inregistrand date precum inaltimea, greutatea, varsta etc.
             </p>
         </div>
-        <div class="col-md-4">
-            <h2> Find your doctor </h2>
+        <div class="paragraf">
+            <h2> Gasiti-va doctorul dorit </h2>
             <p>
-                You can find a doctor, see their reviews and their specialisation.
+                Puteti vedea medicii disponibili, puteti vedea specializarea lor si recenziile primite pentru interventii trecute.
             </p>
         </div>
-        <div class="col-md-4">
-            <h2> Come back later </h2>
+        <div class="paragraf">
+            <h2> Intoarceti-va mai tarziu </h2>
             <p>
-                Your medical history will also be saved.
+                Istoricul si datele voastre medicale vor ramane salvate pentru viitor.
             </p>
         </div>
+    </div>
+
+    <h1 style="text-align:center;">Gasiti centrele noastre in toate cele 7 continente </h1>
+
+    <h4 style="text-align:center;">&#10148; Faceti click pe punctele hartii pentru a vedea descrierea continentului</h4>
+
+    <map name="continents_map">
+
+        <area shape="circle" coords="70,70,10" href="#north_america">
+
+        <area shape="circle" coords="133,185,10" href="#south_america">
+
+        <area shape="circle" coords="270,137,10" href="#africa">
+
+        <area shape="circle" coords="292,44,10" href="#europe">
+
+        <area shape="circle" coords="469,201,10" href="#australia">
+
+        <area shape="circle" coords="374,65,10" href="#asia">
+
+        <area shape="circle" coords="340,267,10" href="#antartica">
+
+    </map>
+
+    <figure style="text-align:center;">
+
+        <img usemap="#continents_map" src=https://bit.ly/2bgFrvL width="600px" />
+
+        <figcaption>World Map</figcaption>
+
+    </figure>
+
+    <div>
+
+        <h3 id="africa">Africa</h3>
+
+        <p>Locatia noastra din Africa, deschisa in 2010.</p>
+
+    </div>
+
+    <div>
+
+        <h3 id="asia">Asia</h3>
+
+        <p>Locatia noastra din Asia, deschisa in 2004.</p>
+
+    </div>
+
+    <div>
+
+        <h3 id="europe">Europa</h3>
+
+        <p>Locatia noastra din Europa, deschisa in 1998.</p>
+
+    </div>
+
+    <div>
+
+        <h3 id="south_america">America de Sud</h3>
+
+        <p>Locatia noastra din America de Sud, deschisa in 2002.</p>
+
+    </div>
+
+    <div>
+
+        <h3 id="north_america">America de Nord</h3>
+
+        <p>Locatia noastra din America de Nord, deschisa in 20001.</p>
+
+    </div>
+
+    <div>
+
+        <h3 id="antartica">Antarctica</h3>
+
+        <p>Locatia noastra din Antarctica, deschisa in 2016.</p>
+
+    </div>
+
+    <div>
+
+        <h3 id="australia">Australia</h3>
+
+        <p>Locatia noastra din Australia, deschisa in 2013.</p>
+
     </div>
 
     <div>
         <p>
-            The time is @DateTime.Now
+            Data actuala este @DateTime.Now
         </p>
     </div>
 </body>
