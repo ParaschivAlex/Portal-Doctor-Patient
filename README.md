@@ -23,13 +23,37 @@ An ASP.NET MVC app (written in Visual Studio) that is made for people (role: pat
   <li>As Patient_8, I want to see a list of all doctors.</li>
   <li>As Admin, I want to have a contact/support page where people can reach the administration.</li>
 </ol>
-
+<hr>
 <h3>PROJECT DIAGRAM</h3>
 Here we have the UML Diagram for our models.
 
 ![Diagrama](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/DiagramPortalDocPat.PNG)
-
+<hr>
 <h3>Backlog Creation</h3>
 We also used the github feature for backlog, switched tasks when it needed to. Unfortunatly, we didn't make any screenshot in the middle of the process, only after we almost finished the tasks.
 
 ![Backlog](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/Backlog%20almost%20done.png)
+<hr>
+
+<h3>Source control (branches and merges)</h3>
+
+We know that there are too many branches but we wanted to keep track of any commit that was made.
+
+![Branchuri](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/Branchuri.PNG)
+<hr>
+
+<h3>Bug reporting (Issues)</h3>
+
+During the process of making the app we faced some bugs and errors that were mentioned in the "Issues" Github category.
+
+![Issues](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/All%20issues.PNG)
+<hr>
+
+<h3>Facebook Login Issue Example</h3>
+
+Here is an issue that was reported to our facebook login feature. We described what the error said and how we solved it.
+
+![Facebook issue](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/Issue%20example.PNG)
+<hr>
+
+
