@@ -1,0 +1,28 @@
+﻿<div class="row">
+	<div class=" col-md-12">
+		<h3><strong>Lista Useri</strong></h3>
+		@foreach (var user in ViewBag.UsersList)
+		{
+			<div class="panel-heading">Nume utilizator: @user.UserName</div>
+
+			<div class="panel-body">
+
+				<i class="glyphicon glyphicon-envelope"></i> Email utilizator: <span class="label label-default">@user.Email</span>
+
+
+			</div>
+
+			<div class="panel-footer">
+				<div class="panel-footer">
+					@using (Html.BeginForm(actionName: "Delete", controllerName: "Users", routeValues: new { id = @user.Id }))
+					{
+						@Html.HttpMethodOverride(HttpVerbs.Delete)
+						<br />
+						<button class="btn btn-success" type="submit">Sterge utilizator</button>
+					}
+				</div>
+			</div>
+			<br /><br />
+		}
+	</div>
+</div>

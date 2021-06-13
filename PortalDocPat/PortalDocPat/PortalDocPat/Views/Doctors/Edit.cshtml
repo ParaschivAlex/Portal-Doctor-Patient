@@ -1,0 +1,38 @@
+﻿@model PortalDocPat.Models.Doctor
+
+
+<h2 class="text-primary">Editare doctor cu id @Model.DoctorId : @Model.Name</h2>
+
+@using (Html.BeginForm(actionName: "Edit", controllerName: "Doctors", routeValues: new { id = Model.DoctorId }))
+{
+    @Html.HttpMethodOverride(HttpVerbs.Put)
+
+    @Html.Label("Name", "Nume Doctor")<br />
+    @Html.EditorFor(m => m.Name)
+    @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+    <br /><br />
+
+    @Html.Label("Phone", "Numar de telefon")
+    <br />
+    @Html.TextArea("Phone", null, new { @class = "form-control" })
+    @Html.ValidationMessage("Phone", "", new { @class = "text-danger" })
+    <br />
+
+    @Html.Label("Photo", "Poza Doctor")<br />
+    @Html.EditorFor(m => m.Photo)
+    @Html.ValidationMessageFor(m => m.Photo, "", new { @class = "text-danger" })
+    <br /><br />
+
+    @Html.Label("PriceRate", "Rata pret")<br />
+    @Html.EditorFor(m => m.PriceRate)
+    @Html.ValidationMessageFor(m => m.PriceRate, "", new { @class = "text-danger" })
+    <br /><br />
+
+
+    <label>Selectati categoria</label>
+    @Html.DropDownListFor(m => m.SpecializationId, new SelectList(Model.Spec, "Value", "Text"), "Selectati specializarea", new { @class = "form-control" })
+    @Html.ValidationMessageFor(m => m.SpecializationId, "", new { @class = "text-danger" })
+    <br />
+
+    <button class="btn btn-sm btn-success" type="submit">Modifica informatii</button>
+}
