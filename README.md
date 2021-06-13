@@ -42,6 +42,13 @@ We know that there are too many branches but we wanted to keep track of any comm
 ![Branchuri](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/Branchuri.PNG)
 <hr>
 
+<h3>Merges</h3>
+
+Here ar just a few of our merges.
+
+![Merges](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/Merges.PNG)
+<hr>
+
 <h3>Bug reporting (Issues)</h3>
 
 During the process of making the app we faced some bugs and errors that were mentioned in the "Issues" Github category.
@@ -55,5 +62,7 @@ Here is an issue that was reported to our facebook login feature. We described w
 
 ![Facebook issue](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/Issue%20example.PNG)
 <hr>
+
+
 
 
