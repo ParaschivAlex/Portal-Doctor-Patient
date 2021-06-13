@@ -1,6 +1,10 @@
-# Portal-Doctor-Patient
+<h1>Portal-Doctor-Patient</h1>
 
-**1. USER STORIES:**
+An ASP.NET MVC app (written in Visual Studio) that is made for people (role: patients) to be able to book a consultation to a doctor, on a specified date and specialization. We started from Regina Maria's app (https://www.reginamaria.ro/) and tried to develop a new one by our ideas. In our app, people can create an account with their email or with facebook, they can save some important details (as kg, allergies etc.), book a consultation to a doctor, see their consultation history and cancel each one if they want to. Doctors and Admin have many other features that you may discover using our Portal Doctor Patient app.
+
+<h2>APP DEMO</h2>
+
+<h3>USER STORIES:</h3>
 <ol>
   <li>As Patient_1, I want to have my own account.</li>
   <li>As Admin, I want people to be able to login with Facebook.</li>
@@ -20,7 +24,8 @@
   <li>As Admin, I want to have a contact/support page where people can reach the administration.</li>
 </ol>
 
-**2. PROJECT DIAGRAM:**
+<h3>PROJECT DIAGRAM</h3>
+Here we have the UML Diagram for our models.
 
 ![Diagrama](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/DiagramPortalDocPat.PNG)
 
