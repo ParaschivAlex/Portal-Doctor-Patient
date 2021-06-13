@@ -1,0 +1,82 @@
+﻿
+<style>
+    body {
+        background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('https://media.xconomy.com/wordpress/wp-content/images/2020/02/27123419/iStock-1131469143.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+</style>
+
+<div class="container-fluid">
+    <br />
+    <a class="btn btn-info" href="/Doctors/Index"><i class="fa fa-arrow-left"></i>  Inapoi la pagina principala</a>
+    <br /><br />
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="text-center text-success">Salut, @ViewBag.Patient.Name</h4>
+                </div>
+                <div class="panel-body">
+
+                    <img class="img-responsive" src="https://cdn.iconscout.com/icon/free/png-512/avatar-372-456324.png" style="height:200px; margin:auto;" alt="poza_utilizator" />
+                    <hr />
+
+                    <div class="text-center">
+                        <h4>Email: @ViewBag.UserCurent.UserName</h4>
+                        <br />
+                        <h4>Nu aveti niciun mesaj nou.</h4>
+                        <br />
+                        <hr />
+                        <h4>Consultatii: </h4><br />
+                        <ul class="list-group">                           
+                            @foreach(PortalDocPat.Models.Consultation c in ViewBag.Consultatii)
+                            {
+                            <li class="list-group-item">
+                                Data consultatiei: @c.StartDate.ToString().Substring(0, 9)<br />
+                                Doctorul: @c.Doctor.Name<br />
+                                <form method="post" action="/Consultations/Delete/@c.ConsultationId">
+                                    @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                    <button class="btn btn-danger fa fa-trash" type="submit"> Sterge</button>
+                                </form>
+                            </li>
+                            }
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="pull-left">Panou date personale</h4>
+                    <a class="btn btn-success pull-right" href="/Patients/Edit/@ViewBag.Patient.PatiendId"><i class="fa fa-edit"></i> Modifica Date</a>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="panel-body">
+                    <br />
+                    <h4>Greutatea corpului: @ViewBag.Patient.Kg</h4>
+                    <br />
+                    <hr />
+                    <br />
+                    <h4>Data nasterii: @ViewBag.Patient.BirthDay</h4>
+                    <br />
+                    <hr />
+                    <br />
+                    <h4>Sexul: @ViewBag.Patient.Sex</h4>
+                    <br />
+                    <hr />
+                    <br />
+                    <h4>Alergii mentionate: @ViewBag.Patient.Allergies</h4>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>

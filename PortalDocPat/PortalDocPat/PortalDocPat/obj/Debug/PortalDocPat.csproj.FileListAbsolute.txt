@@ -1,0 +1,535 @@
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\PortalDocPat.dll.config
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\PortalDocPat.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\PortalDocPat.pdb
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csc.exe
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csc.exe.config
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csc.rsp
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csi.exe
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csi.exe.config
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csi.rsp
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.AppContext.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Collections.Immutable.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Console.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.Compression.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.FileSystem.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.Pipes.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Reflection.Metadata.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.AccessControl.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Claims.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.ValueTuple.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.XPath.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\vbc.exe
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\vbc.exe.config
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\vbc.rsp
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\VBCSCompiler.exe
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\VBCSCompiler.exe.config
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Antlr3.Runtime.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\EntityFramework.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\EntityFramework.SqlServer.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Google.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Web.Infrastructure.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Newtonsoft.Json.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Owin.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Helpers.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Mvc.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Optimization.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Razor.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Deployment.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Razor.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\WebGrease.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Helpers.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Mvc.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Optimization.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Razor.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Deployment.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Razor.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Newtonsoft.Json.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Antlr3.Runtime.pdb
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\EntityFramework.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\EntityFramework.SqlServer.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Google.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csprojAssemblyReference.cache
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csproj.CoreCompileInputs.cache
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csproj.CopyComplete
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.dll
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.pdb
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.Migrations.Initial.resources
+D:\Facultate\Portal Doctor Pacient\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csproj.GenerateResource.cache
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csprojAssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.Migrations.Initial.resources
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csproj.GenerateResource.cache
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.pdb
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\PortalDocPat.dll.config
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\PortalDocPat.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\PortalDocPat.pdb
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csc.exe
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csc.exe.config
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csc.rsp
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csi.exe
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csi.exe.config
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csi.rsp
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.AppContext.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Console.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.Compression.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Claims.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.ValueTuple.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\vbc.exe
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\vbc.exe.config
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\vbc.rsp
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\VBCSCompiler.exe
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Antlr3.Runtime.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\EntityFramework.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Newtonsoft.Json.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Owin.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Helpers.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Mvc.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Optimization.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Razor.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Razor.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\WebGrease.dll
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Helpers.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Mvc.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Optimization.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Razor.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Razor.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Newtonsoft.Json.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Antlr3.Runtime.pdb
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\EntityFramework.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ASUS\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csproj.CopyComplete
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\PortalDocPat.dll.config
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\PortalDocPat.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\PortalDocPat.pdb
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csc.exe
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csc.exe.config
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csc.rsp
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csi.exe
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csi.exe.config
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csi.rsp
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.AppContext.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Console.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.Compression.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Claims.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.ValueTuple.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\vbc.exe
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\vbc.exe.config
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\vbc.rsp
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\VBCSCompiler.exe
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Antlr3.Runtime.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\EntityFramework.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\EntityFramework.SqlServer.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Newtonsoft.Json.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Owin.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Helpers.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Mvc.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Optimization.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Razor.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Deployment.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Razor.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\WebGrease.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Helpers.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Mvc.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Optimization.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Razor.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Deployment.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Razor.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Newtonsoft.Json.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Antlr3.Runtime.pdb
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\EntityFramework.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\EntityFramework.SqlServer.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csprojAssemblyReference.cache
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.Migrations.Initial.resources
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csproj.GenerateResource.cache
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csproj.CoreCompileInputs.cache
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csproj.CopyComplete
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.dll
+C:\Users\bogda\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.pdb
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\PortalDocPat.dll.config
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\PortalDocPat.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\PortalDocPat.pdb
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\csc.exe
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\csc.exe.config
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\csc.rsp
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\csi.exe
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\csi.exe.config
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\csi.rsp
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.AppContext.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.Console.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.Compression.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Claims.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.ValueTuple.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\vbc.exe
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\vbc.exe.config
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\vbc.rsp
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\VBCSCompiler.exe
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Antlr3.Runtime.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\EntityFramework.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\EntityFramework.SqlServer.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Newtonsoft.Json.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Owin.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\System.Web.Helpers.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\System.Web.Mvc.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\System.Web.Optimization.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\System.Web.Razor.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Razor.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\WebGrease.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\System.Web.Helpers.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\System.Web.Mvc.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\System.Web.Optimization.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\System.Web.Razor.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Razor.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Newtonsoft.Json.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Antlr3.Runtime.pdb
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\EntityFramework.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\EntityFramework.SqlServer.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csprojAssemblyReference.cache
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.Migrations.Initial.resources
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csproj.GenerateResource.cache
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csproj.CoreCompileInputs.cache
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csproj.CopyComplete
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient1\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.pdb
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\PortalDocPat.dll.config
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\PortalDocPat.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\PortalDocPat.pdb
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csc.exe
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csc.exe.config
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csc.rsp
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csi.exe
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csi.exe.config
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\csi.rsp
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.AppContext.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Console.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.Compression.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Claims.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.ValueTuple.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\vbc.exe
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\vbc.exe.config
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\vbc.rsp
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\VBCSCompiler.exe
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Antlr3.Runtime.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\EntityFramework.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\EntityFramework.SqlServer.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Newtonsoft.Json.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Owin.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Helpers.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Mvc.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Optimization.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Razor.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Razor.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\WebGrease.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Helpers.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Mvc.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Optimization.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.Razor.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\System.Web.WebPages.Razor.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Newtonsoft.Json.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Antlr3.Runtime.pdb
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\EntityFramework.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\EntityFramework.SqlServer.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csprojAssemblyReference.cache
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.Migrations.Initial.resources
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csproj.GenerateResource.cache
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csproj.CoreCompileInputs.cache
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.csproj.CopyComplete
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.dll
+C:\Users\Maria\Documents\GitHub\Portal-Doctor-Patient\PortalDocPat\PortalDocPat\obj\Debug\PortalDocPat.pdb
