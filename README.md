@@ -63,6 +63,20 @@ Here is an issue that was reported to our facebook login feature. We described w
 ![Facebook issue](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/Issue%20example.PNG)
 <hr>
 
+<h3>NuGet Build Tool</h3>
+
+We used NuGet Solution to add EntityFramework (for database), bootstrap code, Smtp features (Simple Mail Transfer Protocol) and many others.
+
+![NuGet](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/Nuget.PNG)
+<hr>
+
+<h3>MVC Design Pattern</h3>
+
+As the app is made in ASP.NET MVC we used a design pattern from the begging. "MVC is a design pattern used to decouple user-interface (view), data (model), and application logic (controller). This pattern helps to achieve separation of concerns." (source: https://dotnet.microsoft.com/apps/aspnet/mvc)
+
+![MVC](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/MVC%20DP.png)
+<hr>
+
 
 
 
