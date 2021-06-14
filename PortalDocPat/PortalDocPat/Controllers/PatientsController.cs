@@ -82,12 +82,13 @@ namespace PortalDocPat.Controllers
 			try
 			{
 				Patient pat = db.Patients.Find(id);
-				if (pat.PatiendId == int.Parse(User.Identity.GetUserId()) || pat.UserId == User.Identity.GetUserId() || User.IsInRole("Admin"))
+				if ( pat.UserId == User.Identity.GetUserId() || User.IsInRole("Admin"))
 				{
 					pat = requestPatient;
+                    pat.UserId = User.Identity.GetUserId();
 					db.SaveChanges();
 					TempData["message"] = "Pacientul a fost modificat!";
-					return Redirect("/Doctors/Index");
+					return Redirect("/Patients/Show");
                 }
 				else
 				{
