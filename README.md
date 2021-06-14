@@ -27,7 +27,7 @@ An ASP.NET MVC app (written in Visual Studio) that is made for people (role: pat
 <h3>PROJECT DIAGRAM</h3>
 Here we have the UML Diagram for our models.
 
-![Diagrama](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/DiagramPortalDocPat.PNG)
+![Diagrama](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/Diagram.PNG)
 <hr>
 <h3>Backlog Creation</h3>
 We also used the github feature for backlog, switched tasks when it needed to. Unfortunatly, we didn't make any screenshot in the middle of the process, only after we almost finished the tasks.
