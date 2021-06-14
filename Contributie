@@ -1,6 +1,8 @@
-Contributia mea: 12 taskuri din  23.
-Userul 222darkdark sunt tot eu.
+Userul 222darkdark sunt tot eu (Paraschiv Alexandru-Andrei).
+
 Am creat proiectul, am legat la o baza de date, am realizat migratiile, legat aplicatia pentru facebook login, 
-o pagina de contact cu iframe de google maps, am realizat diagrama UML impreuna cu Staicu Bogdan, 
-taskurile To Do si User Stories alaturi de toti ceilalti, am creat modelele,
-am facut toate controllerele in afara de unul (netestate pentru ca nu aveam view-uri) + bug reporting.
+o pagina de contact cu iframe de google maps, am modificat pagina de Home/Index realizata de Maria Popescu (cu acordul tuturor),
+am realizat diagrama UML impreuna cu Staicu Bogdan, taskurile To Do si User Stories alaturi de toti ceilalti, 
+am creat modelele (modificate ulterior de Staicu Bogdan si Coaje Petrut), 
+am facut toate controllerele in afara de unul (modificate si acestea de baieti), am facut bug reporting,
+merges, am facut fisierul ReadMe, am incercat sa realizez un serviciu de mail automat fara succes.
