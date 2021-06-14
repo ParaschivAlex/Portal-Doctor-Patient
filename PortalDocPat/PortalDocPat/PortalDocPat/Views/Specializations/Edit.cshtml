@@ -1,0 +1,31 @@
+﻿@model PortalDocPat.Models.Specialization
+
+<style>
+    body {
+        background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v870-tang-36_1.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e77ca41f1c0b52331b41ac8cdfed783a");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+</style>
+
+<h2>Editare specializare</h2>
+
+<form method="post" action="/Specializations/Edit/@Model.SpecializationId">
+
+    @Html.HttpMethodOverride(HttpVerbs.Put)
+
+    @Html.HiddenFor(m => m.SpecializationId)
+
+    @Html.Label("SpecializationName", "Denumire specializare")
+    <br />
+    @Html.Editor("SpecializationName")
+    <br />
+    @Html.Label("Price", "Pret standard")<br />
+    @Html.EditorFor(m => m.Price)
+    @Html.ValidationMessageFor(m => m.Price, "", new { @class = "text-danger" })
+    <br /><br />
+
+    <button class="btn btn-success" type="submit">Modifica specializarea</button>
+</form>

@@ -12,7 +12,7 @@
 
 <h2 class="text-primary">Editare informatii personale</h2>
 
-@using (Html.BeginForm(actionName: "Edit", controllerName: "Patients", routeValues: new { id = Model.UserId }))
+@using (Html.BeginForm(actionName: "Edit", controllerName: "Patients", routeValues: new { id = Model.PatiendId }))
 {
     @Html.HttpMethodOverride(HttpVerbs.Put)
 

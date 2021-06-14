@@ -13,8 +13,8 @@ namespace PortalDocPat.Controllers
     {
 		private ApplicationDbContext db = new ApplicationDbContext();
 
-        
-		public ActionResult Show()
+        [Authorize(Roles = "Patient,Admin")]
+        public ActionResult Show()
 		{
             try
             {
@@ -25,17 +25,8 @@ namespace PortalDocPat.Controllers
                 ViewBag.UserCurent = db.Users.Find(User.Identity.GetUserId());
                 ViewBag.Patient = pat;
 
-                var consultations = db.Consultations.Where(a => a.PatientId == pat.PatiendId);
-                if (consultations.Count() != 0)
-                {
-
-                    db.SaveChanges();
-                }
-                else
-                {
-                    pat.Consultations = new List<Consultation>();
-                    db.SaveChanges();
-                }
+                var consultatii = db.Consultations.Include("Doctor").Where(i => i.PatientId == pat.PatiendId);
+                ViewBag.Consultatii = consultatii;
 
                 return View();
             }
@@ -47,7 +38,8 @@ namespace PortalDocPat.Controllers
 
 		}
 
-		public ActionResult New()
+        [Authorize(Roles = "Patient,Admin")]
+        public ActionResult New()
 		{
 			Patient pat = new Patient();
             
@@ -88,26 +80,37 @@ namespace PortalDocPat.Controllers
 		public ActionResult Edit(int id, Patient requestPatient)
 		{
 			try
-			{
-				Patient pat = db.Patients.Find(id);
-				if (pat.PatiendId == int.Parse(User.Identity.GetUserId()) || pat.UserId == User.Identity.GetUserId() || User.IsInRole("Admin"))
-				{
-					pat = requestPatient;
-					db.SaveChanges();
-					TempData["message"] = "Pacientul a fost modificat!";
-					return Redirect("/Doctors/Index");
+            {
+                if (ModelState.IsValid)
+                {
+                    Patient pat = db.Patients.Find(id);
+
+                    if (pat.UserId == User.Identity.GetUserId() || User.IsInRole("Admin"))
+                    {
+                        if (TryUpdateModel(pat))
+                        {
+                            pat = requestPatient;
+                            db.SaveChanges();
+                            TempData["message"] = "Pacientul a fost modificat!";
+                        }
+                        return Redirect("/Patients/Show");
+                    }
+                    else
+                    {
+                        TempData["message"] = "Nu aveti dreptul sa faceti modificari asupra unui pacient";
+                        return Redirect("/Pacients/Show");
+                    }
                 }
-				else
-				{
-					TempData["message"] = "Nu aveti dreptul sa faceti modificari asupra unui pacient";
-					return Redirect("/Doctors/Index");
-				}
-			}
-			catch (Exception e)
-			{
-				return View(e.ToString());
-			}
-		}
+                else
+                {
+                    return View(requestPatient);
+                }
+            }
+            catch (Exception e)
+            {
+                return View(requestPatient);
+            }
+        }
 
 		[HttpDelete]
 		[Authorize(Roles = "Patient,Admin")]

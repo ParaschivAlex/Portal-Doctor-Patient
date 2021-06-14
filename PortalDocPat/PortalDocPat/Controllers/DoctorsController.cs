@@ -38,8 +38,19 @@ namespace PortalDocPat.Controllers
 				search = Request.Params.Get("search").Trim();
 				List<int> doctorsIds = db.Doctors.Where(pr => pr.Name.Contains(search)).Select(p => p.DoctorId).ToList();
 
-				List<int> reviewIds = db.Reviews.Where(rev => rev.Comment.Contains(search)).Select(rev => rev.DoctorId).ToList();
-				List<int> mergedIds = doctorsIds.Union(reviewIds).ToList();
+				List<int> specIds = db.Specializations.Where(spec => spec.SpecializationName.Contains(search)).Select(spec => spec.SpecializationId).ToList();
+
+                List<int> docspec = new List<int>();
+
+
+                foreach (var spec in specIds)
+                {
+                    var ids = db.Doctors.Where(u => u.SpecializationId == spec).Select(u => u.DoctorId);
+
+                    docspec = docspec.Union(ids).ToList();
+                }
+
+				List<int> mergedIds = doctorsIds.Union(specIds).ToList();
 
 				doctors = db.Doctors.Where(doc => mergedIds.Contains(doc.DoctorId)).Include("Specialization").Include("User").OrderBy(p => p.Name);
 				doctoriPtSortare = doctors.ToList();
