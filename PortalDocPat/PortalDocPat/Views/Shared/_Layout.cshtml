@@ -35,11 +35,9 @@
 					<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 						<li>@Html.ActionLink("Acasa", "Index", "Home")</li>
 						<li> @Html.ActionLink("Doctori", "Index", "Doctors")</li>
-						@if (User.IsInRole("Patient"))
-						{
-
-							<li>@Html.ActionLink("Informatii personale", "Show", "Patients")</li>
-						}
+						
+					    <li>@Html.ActionLink("Informatii personale", "Show", "Patients")</li>
+						
 						@if (User.IsInRole("Admin"))
 						{
 							<li>@Html.ActionLink("Afisare specializari", "Index", "Specializations")</li>
