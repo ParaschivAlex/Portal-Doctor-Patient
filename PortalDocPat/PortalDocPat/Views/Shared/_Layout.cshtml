@@ -35,7 +35,7 @@
 					<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 						<li>@Html.ActionLink("Acasa", "Index", "Home")</li>
 						<li> @Html.ActionLink("Doctori", "Index", "Doctors")</li>
-						@if (!User.IsInRole("Admin")) // ca sa apara si pentru facebook login (nu merge cu patient)
+						@if (User.IsInRole("Patient"))
 						{
 
 							<li>@Html.ActionLink("Informatii personale", "Show", "Patients")</li>
@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div class="navbar-collapse collapse" style="font-size:20px">
-                @Html.ActionLink(" Clinica MedSana", "Index", "Doctors", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink(" Clinica MedSana", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
                 @Html.Partial("_LoginPartial")
             </div>
         </div>

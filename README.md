@@ -27,7 +27,7 @@ An ASP.NET MVC app (written in Visual Studio) that is made for people (role: pat
 <h3>PROJECT DIAGRAM</h3>
 Here we have the UML Diagram for our models.
 
-![Diagrama](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/DiagramPortalDocPat.PNG)
+![Diagrama](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/Diagram.PNG)
 <hr>
 <h3>Backlog Creation</h3>
 We also used the github feature for backlog, switched tasks when it needed to. Unfortunatly, we didn't make any screenshot in the middle of the process, only after we almost finished the tasks.
@@ -61,6 +61,20 @@ During the process of making the app we faced some bugs and errors that were men
 Here is an issue that was reported to our facebook login feature. We described what the error said and how we solved it.
 
 ![Facebook issue](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/Issue%20example.PNG)
+<hr>
+
+<h3>NuGet Build Tool</h3>
+
+We used NuGet Solution to add EntityFramework (for database), bootstrap code, Smtp features (Simple Mail Transfer Protocol) and many others.
+
+![NuGet](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/Nuget.PNG)
+<hr>
+
+<h3>MVC Design Pattern</h3>
+
+As the app is made in ASP.NET MVC we used a design pattern from the begging. "MVC is a design pattern used to decouple user-interface (view), data (model), and application logic (controller). This pattern helps to achieve separation of concerns." (source: https://dotnet.microsoft.com/apps/aspnet/mvc)
+
+![MVC](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/MVC%20DP.png)
 <hr>
 
 
