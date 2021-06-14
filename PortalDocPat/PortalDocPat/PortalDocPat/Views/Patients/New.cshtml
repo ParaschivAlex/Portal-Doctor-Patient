@@ -1,0 +1,55 @@
+﻿@model PortalDocPat.Models.Patient
+
+<style>
+    body {
+        background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('https://media.xconomy.com/wordpress/wp-content/images/2020/02/27123419/iStock-1131469143.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+</style>
+
+<h2>Adaugare informatii personale</h2>
+
+@using (Html.BeginForm(actionName: "New", controllerName: "Patients"))
+{
+
+    @Html.Label("Name", "Nume pacient")
+    <br />
+    @Html.TextBox("Name", null, new { @class = "form-control" })
+    @Html.ValidationMessageFor(m => m.Name, null, new { @class = "text-danger" })
+    <br />
+
+    @Html.Label("BirthDay", "Data nasterii")
+    <br />
+
+    @Html.EditorFor(model => model.BirthDay, new { htmlAttributes = new { @class = "form-control" } })
+    <br />
+
+    <label>Selectati sexul &ensp; &ensp;</label>
+
+    @Html.DropDownListFor(model => model.Sex,
+                  new List<SelectListItem> {
+                       new SelectListItem { Value = "Masculin" , Text = "Masculin" },
+                       new SelectListItem { Value = "Feminin" , Text = "Feminin" },
+                       new SelectListItem { Value = "Altul" , Text = "Altul" }
+                    },
+                  new { @class="myselect"})
+    <br />
+    @Html.ValidationMessage("Sex", "", new { @class = "text-danger" })
+
+    <br />
+
+    @Html.Label("Kg", "Adaugare greutate")
+    <br />
+    @Html.TextBox("Kg", null, new { @class = "form-control" })
+    <br />
+    @Html.Label("Allergies", "Alergii")
+    <br />
+    @Html.TextArea("Allergies", null, new { @class = "form-control" })
+
+
+    <br />
+    <button class="btn btn-sm btn-success" type="submit">Adauga informatii</button>
+}
