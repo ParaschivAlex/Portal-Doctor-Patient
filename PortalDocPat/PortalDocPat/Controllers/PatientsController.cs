@@ -80,26 +80,37 @@ namespace PortalDocPat.Controllers
 		public ActionResult Edit(int id, Patient requestPatient)
 		{
 			try
-			{
-				Patient pat = db.Patients.Find(id);
-				if (pat.PatiendId == int.Parse(User.Identity.GetUserId()) || pat.UserId == User.Identity.GetUserId() || User.IsInRole("Admin"))
-				{
-					pat = requestPatient;
-					db.SaveChanges();
-					TempData["message"] = "Pacientul a fost modificat!";
-					return Redirect("/Doctors/Index");
+            {
+                if (ModelState.IsValid)
+                {
+                    Patient pat = db.Patients.Find(id);
+
+                    if (pat.UserId == User.Identity.GetUserId() || User.IsInRole("Admin"))
+                    {
+                        if (TryUpdateModel(pat))
+                        {
+                            pat = requestPatient;
+                            db.SaveChanges();
+                            TempData["message"] = "Pacientul a fost modificat!";
+                        }
+                        return Redirect("/Patients/Show");
+                    }
+                    else
+                    {
+                        TempData["message"] = "Nu aveti dreptul sa faceti modificari asupra unui pacient";
+                        return Redirect("/Pacients/Show");
+                    }
                 }
-				else
-				{
-					TempData["message"] = "Nu aveti dreptul sa faceti modificari asupra unui pacient";
-					return Redirect("/Doctors/Index");
-				}
-			}
-			catch (Exception e)
-			{
-				return View(e.ToString());
-			}
-		}
+                else
+                {
+                    return View(requestPatient);
+                }
+            }
+            catch (Exception e)
+            {
+                return View(requestPatient);
+            }
+        }
 
 		[HttpDelete]
 		[Authorize(Roles = "Patient,Admin")]

@@ -77,6 +77,27 @@ As the app is made in ASP.NET MVC we used a design pattern from the begging. "MV
 ![MVC](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/MVC%20DP.png)
 <hr>
 
+<h2>Now we present how our app looks like</h2>
 
+<h3>Information about each user</h3>
 
+In the app, each user can save several information about him/her as kg, allergies, birthday, sex. In this section, each user can see his/her consultation history and can manage it.
 
+![Personal Information](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/InformatiiPersonale.png)
+<hr>
+
+<h3>Our Home Page</h3>
+
+The home page we design had 2 versions. At the end, we decided to have only 1 and there it is. It has a minimalistic design, some text about "our mission" and "best doctors in romania" and also a section where ex-patients' reviews can be seen.
+
+![Home Page](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/HomePage.png)
+<hr>
+
+<h3>The list of Gods (Doctors)</h3>
+
+In this page everyone can check that we have the best doctors in Romania. Each doctors have a rating which is calculated by a formula.
+
+![Doctor Index](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/Doctors.png)
+<hr>
+
+<strong>Enjoy</strong>
