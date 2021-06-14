@@ -13,8 +13,8 @@ namespace PortalDocPat.Controllers
     {
 		private ApplicationDbContext db = new ApplicationDbContext();
 
-        
-		public ActionResult Show()
+        [Authorize(Roles = "Patient,Admin")]
+        public ActionResult Show()
 		{
             try
             {
@@ -38,7 +38,8 @@ namespace PortalDocPat.Controllers
 
 		}
 
-		public ActionResult New()
+        [Authorize(Roles = "Patient,Admin")]
+        public ActionResult New()
 		{
 			Patient pat = new Patient();
             
