@@ -2,7 +2,8 @@
 
 An ASP.NET MVC app (written in Visual Studio) that is made for people (role: patients) to be able to book a consultation to a doctor, on a specified date and specialization. We started from Regina Maria's app (https://www.reginamaria.ro/) and tried to develop a new one by our ideas. In our app, people can create an account with their email or with facebook, they can save some important details (as kg, allergies etc.), book a consultation to a doctor, see their consultation history and cancel each one if they want to. Doctors and Admin have many other features that you may discover using our Portal Doctor Patient app.
 
-<h2>APP DEMO</h2>
+
+<a href="https://www.youtube.com/watch?v=vn4zH5WjgBE"><h2>APP DEMO</h2></a>
 
 <h3>USER STORIES:</h3>
 <ol>
