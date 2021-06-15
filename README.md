@@ -91,7 +91,7 @@ In the begging, our show function in patient controller was a simple one. We wer
 
 <hr>
 
-<h2>Now we present how our app looks like</h2>
+<h2>Now we present what our app looks like</h2>
 
 <h3>Information about each user</h3>
 
