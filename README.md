@@ -77,6 +77,20 @@ As the app is made in ASP.NET MVC we used a design pattern from the begging. "MV
 ![MVC](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/MVC%20DP.png)
 <hr>
 
+<h3>Refactoring</h3>
+
+In the begging, our show function in patient controller was a simple one. We were showing everyone's information if you had the user id. Now, it is adapted to show information only for logged in patients by joining tables from database.
+<h4>Old:</h4>
+
+![Show Patient Old](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/Patient_Show_Initial.PNG)
+
+<br></br>
+<h4>Final:</h4>
+
+![Show Patient Final](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/Patient_Show_Final.PNG)
+
+<hr>
+
 <h2>Now we present how our app looks like</h2>
 
 <h3>Information about each user</h3>
