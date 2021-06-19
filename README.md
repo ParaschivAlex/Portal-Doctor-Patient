@@ -2,7 +2,8 @@
 
 An ASP.NET MVC app (written in Visual Studio) that is made for people (role: patients) to be able to book a consultation to a doctor, on a specified date and specialization. We started from Regina Maria's app (https://www.reginamaria.ro/) and tried to develop a new one by our ideas. In our app, people can create an account with their email or with facebook, they can save some important details (as kg, allergies etc.), book a consultation to a doctor, see their consultation history and cancel each one if they want to. Doctors and Admin have many other features that you may discover using our Portal Doctor Patient app.
 
-<h2>APP DEMO</h2>
+
+<a href="https://www.youtube.com/watch?v=vn4zH5WjgBE"><h2>APP DEMO</h2></a>
 
 <h3>USER STORIES:</h3>
 <ol>
@@ -77,6 +78,41 @@ As the app is made in ASP.NET MVC we used a design pattern from the begging. "MV
 ![MVC](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/MVC%20DP.png)
 <hr>
 
+<h3>Refactoring</h3>
 
+In the begging, our show function in patient controller was a simple one. We were showing everyone's information if you had the user id. Now, it is adapted to show information only for logged in patients by joining tables from database.
+<h4>Old:</h4>
 
+![Show Patient Old](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/Patient_Show_Initial.PNG)
 
+<br></br>
+<h4>Final:</h4>
+
+![Show Patient Final](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/Patient_Show_Final.PNG)
+
+<hr>
+
+<h2>Now we present what our app looks like</h2>
+
+<h3>Information about each user</h3>
+
+In the app, each user can save several information about him/her as kg, allergies, birthday, sex. In this section, each user can see his/her consultation history and can manage it.
+
+![Personal Information](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/InformatiiPersonale.png)
+<hr>
+
+<h3>Our Home Page</h3>
+
+The home page we design had 2 versions. At the end, we decided to have only 1 and there it is. It has a minimalistic design, some text about "our mission" and "best doctors in romania" and also a section where ex-patients' reviews can be seen.
+
+![Home Page](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/HomePage.png)
+<hr>
+
+<h3>The list of Gods (Doctors)</h3>
+
+In this page everyone can check that we have the best doctors in Romania. Each doctors have a rating which is calculated by a formula.
+
+![Doctor Index](https://github.com/ParaschivAlex/Portal-Doctor-Patient/blob/main/Doctors.png)
+<hr>
+
+<strong>Enjoy</strong>
